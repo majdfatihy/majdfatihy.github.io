@@ -1,0 +1,61 @@
+{
+  "name": "ماجد فتحي",
+  "name_en": "Majed Fathy Hub",
+  "alt_names": ["Majd Fatihy", "Majed Fathy", "ماجد فتحي - منصة الأدوات"],
+  "url": "https://majdfatihy.github.io",
+  "lang": "ar",
+  "locale": "ar_EG",
+  "tagline": "أدوات مجانية ومشاريع ويب مفتوحة المصدر",
+  "footer_blurb": "منصة عربية تجمع أدوات تعمل داخل المتصفح وأدلة موثقة ومشاريع ذكاء اصطناعي، من تطوير ماجد فتحي.",
+  "author": "ماجد فتحي",
+  "author_role": "مطوّر ويب وصانع محتوى تقني",
+  "email": "fthymajd3701@gmail.com",
+  "ga_id": "G-F7K26SPSHF",
+  "theme_color": "#0A1636",
+  "social": [
+    {"label": "يوتيوب", "url": "https://www.youtube.com/@MajdFatihy"},
+    {"label": "تليجرام", "url": "https://t.me/majdfathy"},
+    {"label": "واتساب", "url": "https://wa.me/201066732514"},
+    {"label": "المدونة", "url": "https://magedfatihy.blogspot.com/"},
+    {"label": "GitHub", "url": "https://github.com/majdfatihy"},
+    {"label": "فيسبوك", "url": "https://www.facebook.com/majdfatihyfp"},
+    {"label": "إنستغرام", "url": "https://www.instagram.com/majdfatihy"}
+  ],
+  "nav": [
+    {"label": "الرئيسية", "href": "index.html"},
+    {"label": "المشاريع", "href": "index.html#projects"},
+    {"label": "من نحن", "href": "about.html"},
+    {"label": "اتصل بنا", "href": "contact.html"}
+  ],
+  "legal": [
+    {"label": "سياسة الخصوصية", "href": "privacy.html"},
+    {"label": "شروط الاستخدام", "href": "terms.html"},
+    {"label": "إخلاء المسؤولية", "href": "disclaimer.html"}
+  ],
+  "sources": [
+    {"label": "Google Search Essentials", "url": "https://developers.google.com/search/docs/essentials"},
+    {"label": "إرشادات Bing للمواقع", "url": "https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a"},
+    {"label": "توثيق GitHub Pages", "url": "https://docs.github.com/en/pages"},
+    {"label": "معايير الوصول WCAG", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/"}
+  ],
+  "pages": [
+    {"slug": "index", "file": "home", "type": "CollectionPage", "priority": "1.0", "freq": "weekly",
+     "title": "ماجد فتحي | أدوات مجانية ومشاريع ويب مفتوحة المصدر",
+     "description": "الموقع الرسمي للمطور ماجد فتحي: أدوات مجانية لضغط الصور وتحويل جهات الاتصال وتحليل يوتيوب، وأدلة أكواد الخصم، ومشاريع الذكاء الاصطناعي."},
+    {"slug": "about", "file": "about", "type": "AboutPage", "priority": "0.6", "freq": "monthly",
+     "title": "من نحن | ماجد فتحي - منصة الأدوات والمشاريع",
+     "description": "تعرّف على منصة ماجد فتحي: رؤيتنا، طريقة بناء الأدوات المجانية المفتوحة المصدر، التزامنا بالخصوصية والشفافية، ومجالات عملنا التقنية."},
+    {"slug": "contact", "file": "contact", "type": "ContactPage", "priority": "0.6", "freq": "monthly",
+     "title": "اتصل بنا | تواصل مع ماجد فتحي والدعم الفني",
+     "description": "قنوات التواصل الرسمية مع ماجد فتحي: البريد الإلكتروني وتليجرام وواتساب ويوتيوب، مع نموذج رسالة جاهز وإرشادات للإبلاغ عن مشكلة تقنية."},
+    {"slug": "privacy", "file": "privacy", "type": "WebPage", "priority": "0.4", "freq": "yearly",
+     "title": "سياسة الخصوصية | ماجد فتحي",
+     "description": "سياسة الخصوصية لموقع ماجد فتحي: البيانات التي نجمعها، ملفات الارتباط والتخزين المحلي، أدوات التحليل، الإعلانات، وحقوقك في بياناتك الشخصية."},
+    {"slug": "terms", "file": "terms", "type": "WebPage", "priority": "0.4", "freq": "yearly",
+     "title": "شروط الاستخدام | ماجد فتحي",
+     "description": "شروط وأحكام استخدام موقع وأدوات ماجد فتحي: الملكية الفكرية، الاستخدام المقبول، الروابط الخارجية، حدود المسؤولية وتعديل الشروط."},
+    {"slug": "disclaimer", "file": "disclaimer", "type": "WebPage", "priority": "0.4", "freq": "yearly",
+     "title": "إخلاء المسؤولية وروابط الإحالة | ماجد فتحي",
+     "description": "إخلاء المسؤولية القانونية والمالية لموقع ماجد فتحي: الإفصاح عن روابط الإحالة وأكواد الخصم، وتنبيهات الاستثمار والعملات الرقمية وتغيّر العروض."}
+  ]
+}

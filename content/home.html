@@ -1,0 +1,65 @@
+<section class="hero wrap">
+  <img class="hero-logo" src="assets/img/icon-512.png" width="96" height="96" alt="شعار منصة ماجد فتحي" fetchpriority="high">
+  <h1>ماجد فتحي: أدوات مجانية ومشاريع ويب مفتوحة المصدر</h1>
+  <p class="lead">منصة عربية تجمع أدوات تعمل داخل المتصفح، وأدلة موثقة لخدمات رقمية، ومشاريع ذكاء اصطناعي. اختر مشروعاً من القائمة أو ابحث عنه بالاسم.</p>
+  <div class="search">
+    <label class="sr" for="q">ابحث في المشاريع</label>
+    <input id="q" type="search" placeholder="ابحث: ضغط الصور، يوتيوب، ماني فيللوز…" autocomplete="off">
+  </div>
+  {{CHIPS}}
+  <p class="count" id="count" aria-live="polite">{{PROJECT_COUNT}} مشروعاً</p>
+</section>
+
+<section id="projects" class="wrap" aria-labelledby="h-projects">
+  <h2 id="h-projects">المشاريع والأدوات</h2>
+  {{PROJECTS_GRID}}
+  <p id="noResults" class="empty" hidden>لا توجد نتائج مطابقة. جرّب كلمة أخرى أو اختر «الكل».</p>
+</section>
+
+{{AD:mid}}
+
+<section class="wrap prose">
+  <h2>ما هذه المنصة؟</h2>
+  <p>هذه هي الصفحة الرئيسية لمنصة ماجد فتحي، وهي مساحة تجمع في مكان واحد الأدوات والمشاريع التي طوّرها ونشرها على الويب لخدمة المطورين وصنّاع المحتوى والمدونين العرب. لكل مشروع صفحته وروابطه الخاصة، ويجمعها هنا فهرس واحد منظم يسهّل الوصول إليها من الهاتف أو الكمبيوتر دون البحث بين روابط متفرقة. ستجد أدوات عملية مثل ضغط الصور لمدونات بلوجر، وتحويل جهات اتصال فيسبوك، وتحليل قنوات يوتيوب، إلى جانب أدلة تشرح خدمات رقمية وأكواد خصم وإحالة، ومشروعاً يعتمد على الذكاء الاصطناعي لتوليد ملفات الترجمة.</p>
+</section>
+
+<section class="wrap" aria-labelledby="h-why">
+  <h2 id="h-why">لماذا يمكنك الاعتماد على هذه الأدوات؟</h2>
+  <div class="grid4">
+    <div class="card"><h3>الخصوصية أولاً</h3><p>معظم الأدوات تعالج الملفات داخل متصفحك مباشرة، فلا تُرسل صورك أو بيانات جهات الاتصال إلى خادم خارجي. تفاصيل ذلك موضحة في <a href="privacy.html">سياسة الخصوصية</a>.</p></div>
+    <div class="card"><h3>مجانية ومفتوحة</h3><p>الأدوات متاحة دون اشتراك، وتُنشر كمشاريع مفتوحة المصدر يمكنك الاطلاع عليها عبر حساب GitHub أو اقتراح تحسين عليها.</p></div>
+    <div class="card"><h3>متجاوبة وسريعة</h3><p>التصميم يعمل على الهاتف والجهاز اللوحي والكمبيوتر، وبلا اعتماديات ثقيلة، لتفتح بسرعة حتى مع الإنترنت البطيء.</p></div>
+    <div class="card"><h3>شفافة في الإحالات</h3><p>بعض الصفحات تتضمن روابط إحالة أو أكواد خصم، ونوضح ذلك بجلاء في صفحة <a href="disclaimer.html">إخلاء المسؤولية</a>.</p></div>
+  </div>
+</section>
+
+<section class="wrap prose" aria-labelledby="h-how">
+  <h2 id="h-how">كيف تبدأ؟</h2>
+  <ol class="steps">
+    <li>ابحث عن المشروع المناسب بالاسم، أو اختر نوعه من أزرار التصفية أعلى القائمة.</li>
+    <li>افتح صفحة المشروع واقرأ وصفه القصير لتعرف ما يفعله وما يحتاجه منك.</li>
+    <li>جرّب الأداة بملف أو بيانات تجريبية قبل استخدامها في عملك الفعلي.</li>
+    <li>إن واجهتك مشكلة أو لديك اقتراح، راسلنا عبر صفحة <a href="contact.html">اتصل بنا</a> مع ذكر اسم المشروع ونوع جهازك ومتصفحك.</li>
+  </ol>
+</section>
+
+<section class="wrap prose" aria-labelledby="h-faq">
+  <h2 id="h-faq">أسئلة شائعة</h2>
+  <details><summary>هل الأدوات مجانية؟</summary><p>نعم، جميع الأدوات المعروضة هنا متاحة للاستخدام دون رسوم. وقد تحتوي بعض الصفحات على روابط إحالة أو إعلانات تدعم تكاليف التطوير والاستضافة، دون أي تكلفة إضافية عليك.</p></details>
+  <details><summary>هل تُرفع ملفاتي إلى خادم؟</summary><p>الأدوات التي تعمل داخل المتصفح تعالج الملفات على جهازك. أما المشاريع التي تعتمد على خدمات خارجية، مثل أدوات الذكاء الاصطناعي، فقد ترسل البيانات إلى مزوّد الخدمة، ولذلك نوصي بقراءة صفحة المشروع وسياسة الخصوصية قبل الاستخدام.</p></details>
+  <details><summary>كيف أقترح أداة جديدة؟</summary><p>راسلنا عبر صفحة اتصل بنا واشرح المشكلة التي تريد حلّها. نراجع الاقتراحات ونضيف المشاريع الجديدة تباعاً إلى هذا الفهرس.</p></details>
+  <details><summary>هل أكواد الخصم مضمونة؟</summary><p>عروض الشركات تتغير دون إشعار، والمرجع النهائي دائماً هو التطبيق أو الموقع الرسمي للشركة. اقرأ صفحة إخلاء المسؤولية لمعرفة التفاصيل.</p></details>
+  <details><summary>كيف أبلغ عن خطأ في أداة؟</summary><p>أرسل لنا اسم الأداة ووصف الخطأ وخطوات تكراره عبر البريد الإلكتروني أو تليجرام، وسنراجعه ونصلحه في أقرب وقت ممكن.</p></details>
+</section>
+
+<section class="wrap prose" aria-labelledby="h-src">
+  <h2 id="h-src">مصادر ومراجع رسمية</h2>
+  <p>التزمنا في بناء هذا الموقع بالإرشادات المنشورة رسمياً من الجهات المعنية بمحركات البحث والويب، ويمكنك مراجعتها مباشرة:</p>
+  <ul class="sources">
+    <li><a href="https://developers.google.com/search/docs/essentials" rel="noopener" target="_blank">Google Search Essentials</a> المتطلبات الأساسية لظهور المواقع في بحث Google.</li>
+    <li><a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" rel="noopener" target="_blank">إنشاء محتوى مفيد وموثوق</a> إرشادات Google لجودة المحتوى.</li>
+    <li><a href="https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a" rel="noopener" target="_blank">إرشادات Bing للمواقع</a> مبادئ الفهرسة في محرك Bing.</li>
+    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" rel="noopener" target="_blank">معايير WCAG</a> إرشادات إتاحة المحتوى لكل المستخدمين.</li>
+    <li><a href="https://docs.github.com/en/pages" rel="noopener" target="_blank">توثيق GitHub Pages</a> المنصة التي يُستضاف عليها الموقع.</li>
+  </ul>
+</section>

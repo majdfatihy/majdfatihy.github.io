@@ -1,271 +1,128 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl" data-theme="dark">
+<html lang="ar" dir="rtl">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7K26SPSHF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F7K26SPSHF');
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ماجد فتحي | منصة الأدوات البرمجية ومشاريع الويب المفتوحة</title>
-    <meta name="description" content="الموقع الرسمي للمطور ماجد فتحي، يضم أدوات مجانية لمدوني بلوجر، محوّل جهات الاتصال، أداة يوتيوب، أدوات الذكاء الاصطناعي، ودليل الربح من الإنترنت ومحافظ الويب.">
-    <meta name="keywords" content="ماجد فتحي, Majd Fatihy, أدوات ويب, ضغط الصور, محوّل جهات الاتصال, أداة يوتيوب, ماني فيلوز, بايبت">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://majdfatihy.github.io/">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
-    <style>
-        :root {
-            --bg: #0f172a;
-            --card: #1e293b;
-            --border: #334155;
-            --text: #f8fafc;
-            --muted: #94a3b8;
-            --primary: #0088cc;
-            --accent: #10b981;
-            --hover-card: #2563eb;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .container { max-width: 1200px; margin: 0 auto; width: 100%; }
-        header { text-align: center; padding: 50px 0 30px 0; border-bottom: 1px solid var(--border); margin-bottom: 30px; }
-        header h1 { font-size: 2.5rem; margin-bottom: 12px; color: #fff; }
-        header p { color: var(--muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
-        
-        .search-box {
-            margin: 25px auto 0;
-            max-width: 500px;
-            display: flex;
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 5px 15px;
-        }
-        .search-input {
-            flex: 1;
-            background: transparent;
-            border: none;
-            outline: none;
-            color: var(--text);
-            padding: 10px;
-            font-size: 1rem;
-        }
-
-        .section-title { font-size: 1.5rem; margin-bottom: 20px; color: #60a5fa; border-right: 4px solid var(--primary); padding-right: 12px; }
-
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 22px;
-            margin-bottom: 50px;
-        }
-        .project-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 25px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            transition: transform 0.25s ease, border-color 0.25s ease;
-            text-decoration: none;
-            color: inherit;
-        }
-        .project-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--primary);
-        }
-        .project-card h3 { font-size: 1.25rem; color: #60a5fa; display: flex; align-items: center; gap: 8px; }
-        .project-card p { color: var(--muted); font-size: 0.92rem; flex: 1; }
-        .project-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 0.9rem;
-            font-weight: bold;
-            color: var(--accent);
-            margin-top: auto;
-        }
-        
-        .footer-links-grid {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
-        }
-        .footer-links-grid a {
-            color: var(--muted);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.2s;
-        }
-        .footer-links-grid a:hover { color: var(--primary); }
-
-        footer {
-            text-align: center;
-            margin-top: auto;
-            padding: 30px 0 10px 0;
-            color: var(--muted);
-            font-size: 0.85rem;
-            border-top: 1px solid var(--border);
-        }
-        .social-bar {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 15px;
-            flex-wrap: wrap;
-        }
-        .social-btn {
-            background: var(--card);
-            border: 1px solid var(--border);
-            padding: 8px 16px;
-            border-radius: 8px;
-            color: var(--text);
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: bold;
-            transition: 0.2s;
-        }
-        .social-btn:hover { border-color: var(--primary); color: var(--primary); }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ماجد فتحي | أدوات مجانية ومشاريع ويب مفتوحة المصدر</title>
+<meta name="description" content="الموقع الرسمي للمطور ماجد فتحي: أدوات مجانية لضغط الصور وتحويل جهات الاتصال وتحليل يوتيوب، وأدلة أكواد الخصم، ومشاريع الذكاء الاصطناعي.">
+<meta name="author" content="ماجد فتحي">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="theme-color" content="#0A1636">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://majdfatihy.github.io/">
+<link rel="alternate" hreflang="ar" href="https://majdfatihy.github.io/">
+<link rel="alternate" hreflang="x-default" href="https://majdfatihy.github.io/">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="icon" href="assets/img/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:site_name" content="ماجد فتحي">
+<meta property="og:title" content="ماجد فتحي | أدوات مجانية ومشاريع ويب مفتوحة المصدر">
+<meta property="og:description" content="الموقع الرسمي للمطور ماجد فتحي: أدوات مجانية لضغط الصور وتحويل جهات الاتصال وتحليل يوتيوب، وأدلة أكواد الخصم، ومشاريع الذكاء الاصطناعي.">
+<meta property="og:url" content="https://majdfatihy.github.io/">
+<meta property="og:image" content="https://majdfatihy.github.io/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Majed Fathy Hub - أدوات مجانية ومشاريع ويب مفتوحة المصدر">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ماجد فتحي | أدوات مجانية ومشاريع ويب مفتوحة المصدر">
+<meta name="twitter:description" content="الموقع الرسمي للمطور ماجد فتحي: أدوات مجانية لضغط الصور وتحويل جهات الاتصال وتحليل يوتيوب، وأدلة أكواد الخصم، ومشاريع الذكاء الاصطناعي.">
+<meta name="twitter:image" content="https://majdfatihy.github.io/assets/img/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://majdfatihy.github.io/#website", "url": "https://majdfatihy.github.io/", "name": "ماجد فتحي", "alternateName": ["Majed Fathy Hub", "Majd Fatihy", "Majed Fathy", "ماجد فتحي - منصة الأدوات"], "inLanguage": "ar", "publisher": {"@id": "https://majdfatihy.github.io/#author"}}, {"@type": "Person", "@id": "https://majdfatihy.github.io/#author", "name": "ماجد فتحي", "url": "https://majdfatihy.github.io/", "jobTitle": "مطوّر ويب وصانع محتوى تقني", "sameAs": ["https://www.youtube.com/@MajdFatihy", "https://t.me/majdfathy", "https://wa.me/201066732514", "https://magedfatihy.blogspot.com/", "https://github.com/majdfatihy", "https://www.facebook.com/majdfatihyfp", "https://www.instagram.com/majdfatihy"]}, {"@type": "CollectionPage", "@id": "https://majdfatihy.github.io/#webpage", "url": "https://majdfatihy.github.io/", "name": "ماجد فتحي | أدوات مجانية ومشاريع ويب مفتوحة المصدر", "description": "الموقع الرسمي للمطور ماجد فتحي: أدوات مجانية لضغط الصور وتحويل جهات الاتصال وتحليل يوتيوب، وأدلة أكواد الخصم، ومشاريع الذكاء الاصطناعي.", "inLanguage": "ar", "isPartOf": {"@id": "https://majdfatihy.github.io/#website"}, "author": {"@id": "https://majdfatihy.github.io/#author"}, "dateModified": "2026-10-22", "primaryImageOfPage": {"@type": "ImageObject", "url": "https://majdfatihy.github.io/assets/img/og-image.png", "width": 1200, "height": 630}}, {"@type": "ItemList", "name": "المشاريع والأدوات", "numberOfItems": 10, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "كود خصم ماني فيللوز Money Fellows", "url": "https://majdfatihy.github.io/money-fellows-discount-300le/"}, {"@type": "ListItem", "position": 2, "name": "دليل أرباحي المعتمد", "url": "https://majdfatihy.github.io/online-earning-directory/"}, {"@type": "ListItem", "position": 3, "name": "بوابة الروابط الذكية", "url": "https://majdfatihy.github.io/smart-link-gateway/"}, {"@type": "ListItem", "position": 4, "name": "أداة ضغط الصور لبلوجر", "url": "https://majdfatihy.github.io/image-compressor/"}, {"@type": "ListItem", "position": 5, "name": "محوّل جهات اتصال فيسبوك", "url": "https://majdfatihy.github.io/facebook-contacts-converter/"}, {"@type": "ListItem", "position": 6, "name": "أداة يوتيوب الشاملة YT Master", "url": "https://majdfatihy.github.io/youtube-tool/"}, {"@type": "ListItem", "position": 7, "name": "أداة ShareIt Safebox", "url": "https://majdfatihy.github.io/shareit-safebox-tool/"}, {"@type": "ListItem", "position": 8, "name": "دليل Bybit والبطاقة الافتراضية", "url": "https://majdfatihy.github.io/bybit-referral-code-majd/"}, {"@type": "ListItem", "position": 9, "name": "أكواد خصم VidIQ", "url": "https://majdfatihy.github.io/vidiq-discount-codes/"}, {"@type": "ListItem", "position": 10, "name": "Subtitle Forge AI", "url": "https://subtitle-forge-ai.vercel.app/"}]}]}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7K26SPSHF"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-F7K26SPSHF");</script>
 </head>
 <body>
+<a class="skip" href="#main">انتقل إلى المحتوى</a>
+<canvas id="bgNet" aria-hidden="true"></canvas>
+<header class="site-header"><div class="wrap bar">
+<a class="brand" href="index.html" aria-label="ماجد فتحي - الصفحة الرئيسية"><img src="assets/img/icon-192.png" width="38" height="38" alt=""><span><b>ماجد فتحي</b><small>Majed Fathy Hub</small></span></a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="فتح القائمة"><span></span><span></span><span></span></button>
+<nav id="nav" class="nav" aria-label="القائمة الرئيسية"><a href="index.html" aria-current="page">الرئيسية</a><a href="index.html#projects">المشاريع</a><a href="about.html">من نحن</a><a href="contact.html">اتصل بنا</a></nav>
+</div></header>
+<div class="ad-zone" data-ad="topx"></div>
+<main id="main">
+<section class="hero wrap">
+  <img class="hero-logo" src="assets/img/icon-512.png" width="96" height="96" alt="شعار منصة ماجد فتحي" fetchpriority="high">
+  <h1>ماجد فتحي: أدوات مجانية ومشاريع ويب مفتوحة المصدر</h1>
+  <p class="lead">منصة عربية تجمع أدوات تعمل داخل المتصفح، وأدلة موثقة لخدمات رقمية، ومشاريع ذكاء اصطناعي. اختر مشروعاً من القائمة أو ابحث عنه بالاسم.</p>
+  <div class="search">
+    <label class="sr" for="q">ابحث في المشاريع</label>
+    <input id="q" type="search" placeholder="ابحث: ضغط الصور، يوتيوب، ماني فيللوز…" autocomplete="off">
+  </div>
+  <div class="chips" role="group" aria-label="تصفية حسب النوع"><button type="button" class="chip" data-f="all" aria-pressed="true">الكل</button><button type="button" class="chip" data-f="tools" aria-pressed="false">أدوات</button><button type="button" class="chip" data-f="guides" aria-pressed="false">أدلة وأكواد خصم</button><button type="button" class="chip" data-f="ai" aria-pressed="false">ذكاء اصطناعي</button></div>
+  <p class="count" id="count" aria-live="polite">10 مشروعاً</p>
+</section>
 
-    <div class="container">
-        <header>
-            <h1>👨‍💻 ماجد فتحي | Majed Fathy Hub</h1>
-            <p>الموقع الرسمي ومحفظة المشاريع المفتوحة والأدوات الرقمية المتقدمة لخدمة المطورين، صناع المحتوى، والمدونين العرب.</p>
-            
-            <div class="search-box">
-                <input type="text" id="searchProjects" class="search-input" placeholder="ابحث في المشاريع والأدوات..." oninput="filterProjects()">
-            </div>
+<section id="projects" class="wrap" aria-labelledby="h-projects">
+  <h2 id="h-projects">المشاريع والأدوات</h2>
+  <div class="grid-proj" id="projectsGrid"><a class="proj" href="https://majdfatihy.github.io/money-fellows-discount-300le/" data-cat="guides" data-s="كود خصم ماني فيللوز money fellows صفحة كود الخصم 92962874 مع حاسبة تفاعلية للقسط ورسوم الدور والتوفير، وخطوات الاشتراك في الجمعية. ماني فيللوز كود خصم حاسبة أدلة وأكواد خصم"><span class="ico" aria-hidden="true">💰</span><span class="badge">أدلة وأكواد خصم</span><h3>كود خصم ماني فيللوز Money Fellows</h3><p>صفحة كود الخصم 92962874 مع حاسبة تفاعلية للقسط ورسوم الدور والتوفير، وخطوات الاشتراك في الجمعية.</p><span class="tags"><span>ماني فيللوز</span><span>كود خصم</span><span>حاسبة</span></span><span class="go">عرض الصفحة</span></a><a class="proj" href="https://majdfatihy.github.io/online-earning-directory/" data-cat="guides" data-s="دليل أرباحي المعتمد دليل تفاعلي لأفضل منصات الربح من الإنترنت: الصنابير والمهام والأفيليت مع إثباتات الدفع. ربح أفيليت دليل أدلة وأكواد خصم"><span class="ico" aria-hidden="true">💎</span><span class="badge">أدلة وأكواد خصم</span><h3>دليل أرباحي المعتمد</h3><p>دليل تفاعلي لأفضل منصات الربح من الإنترنت: الصنابير والمهام والأفيليت مع إثباتات الدفع.</p><span class="tags"><span>ربح</span><span>أفيليت</span><span>دليل</span></span><span class="go">تصفح المنصة</span></a><a class="proj" href="https://majdfatihy.github.io/smart-link-gateway/" data-cat="tools" data-s="بوابة الروابط الذكية توليد روابط مشفرة (base64) وصفحة إعادة توجيه آمنة بعداد تنازلي وحماية للملفات. روابط base64 توجيه أدوات"><span class="ico" aria-hidden="true">🔗</span><span class="badge">أدوات</span><h3>بوابة الروابط الذكية</h3><p>توليد روابط مشفرة (Base64) وصفحة إعادة توجيه آمنة بعداد تنازلي وحماية للملفات.</p><span class="tags"><span>روابط</span><span>Base64</span><span>توجيه</span></span><span class="go">فتح الأداة</span></a><a class="proj" href="https://majdfatihy.github.io/image-compressor/" data-cat="tools" data-s="أداة ضغط الصور لبلوجر ضغط الصور وتحويلها إلى webp وavif داخل المتصفح لتسريع مدونات بلوجر دون رفع الملفات. صور webp بلوجر أدوات"><span class="ico" aria-hidden="true">🖼️</span><span class="badge">أدوات</span><h3>أداة ضغط الصور لبلوجر</h3><p>ضغط الصور وتحويلها إلى WebP وAVIF داخل المتصفح لتسريع مدونات بلوجر دون رفع الملفات.</p><span class="tags"><span>صور</span><span>WebP</span><span>بلوجر</span></span><span class="go">استخدم الأداة</span></a><a class="proj" href="https://majdfatihy.github.io/facebook-contacts-converter/" data-cat="tools" data-s="محوّل جهات اتصال فيسبوك تحويل ملفات فيسبوك (html وjson) إلى excel وvcard وgoogle csv مع إصلاح الأسماء العربية المشوّهة. فيسبوك excel vcard أدوات"><span class="ico" aria-hidden="true">📇</span><span class="badge">أدوات</span><h3>محوّل جهات اتصال فيسبوك</h3><p>تحويل ملفات فيسبوك (HTML وJSON) إلى Excel وvCard وGoogle CSV مع إصلاح الأسماء العربية المشوّهة.</p><span class="tags"><span>فيسبوك</span><span>Excel</span><span>vCard</span></span><span class="go">تصفح الأداة</span></a><a class="proj" href="https://majdfatihy.github.io/youtube-tool/" data-cat="tools" data-s="أداة يوتيوب الشاملة yt master استخراج وتحليل بيانات القنوات وقوائم التشغيل مع رسوم بيانية وتصدير إلى excel وتحميل الصور المصغّرة. يوتيوب تحليل تصدير أدوات"><span class="ico" aria-hidden="true">🚀</span><span class="badge">أدوات</span><h3>أداة يوتيوب الشاملة YT Master</h3><p>استخراج وتحليل بيانات القنوات وقوائم التشغيل مع رسوم بيانية وتصدير إلى Excel وتحميل الصور المصغّرة.</p><span class="tags"><span>يوتيوب</span><span>تحليل</span><span>تصدير</span></span><span class="go">فتح لوحة التحكم</span></a><a class="proj" href="https://majdfatihy.github.io/shareit-safebox-tool/" data-cat="tools" data-s="أداة shareit safebox تخزين وإدارة الملفات والبيانات بواجهة سلسة ومتجاوبة تعمل على الهاتف والكمبيوتر. ملفات إدارة shareit أدوات"><span class="ico" aria-hidden="true">🛡️</span><span class="badge">أدوات</span><h3>أداة ShareIt Safebox</h3><p>تخزين وإدارة الملفات والبيانات بواجهة سلسة ومتجاوبة تعمل على الهاتف والكمبيوتر.</p><span class="tags"><span>ملفات</span><span>إدارة</span><span>ShareIt</span></span><span class="go">استعرض الأداة</span></a><a class="proj" href="https://majdfatihy.github.io/bybit-referral-code-majd/" data-cat="guides" data-s="دليل bybit والبطاقة الافتراضية دليل كود إحالة بايبت majd وهدايا المستخدم الجديد والبطاقة الافتراضية والشحن المحلي عبر p2p. bybit بطاقة p2p أدلة وأكواد خصم"><span class="ico" aria-hidden="true">🟡</span><span class="badge">أدلة وأكواد خصم</span><h3>دليل Bybit والبطاقة الافتراضية</h3><p>دليل كود إحالة بايبت MAJD وهدايا المستخدم الجديد والبطاقة الافتراضية والشحن المحلي عبر P2P.</p><span class="tags"><span>Bybit</span><span>بطاقة</span><span>P2P</span></span><span class="go">اقرأ الدليل</span></a><a class="proj" href="https://majdfatihy.github.io/vidiq-discount-codes/" data-cat="guides" data-s="أكواد خصم vidiq أحدث عروض وأكواد خصم vidiq الرسمية لتحسين السيو ومضاعفة مشاهدات قنوات يوتيوب. vidiq سيو خصم أدلة وأكواد خصم"><span class="ico" aria-hidden="true">📊</span><span class="badge">أدلة وأكواد خصم</span><h3>أكواد خصم VidIQ</h3><p>أحدث عروض وأكواد خصم VidIQ الرسمية لتحسين السيو ومضاعفة مشاهدات قنوات يوتيوب.</p><span class="tags"><span>VidIQ</span><span>سيو</span><span>خصم</span></span><span class="go">عرض الكود</span></a><a class="proj" href="https://subtitle-forge-ai.vercel.app/" target="_blank" rel="noopener" data-cat="ai" data-s="subtitle forge ai أداة ذكاء اصطناعي لتوليد وتعديل ملفات الترجمة (srt) للفيديوهات بدقة وسرعة. ترجمة ذكاء اصطناعي فيديو ذكاء اصطناعي"><span class="ico" aria-hidden="true">🤖</span><span class="badge">ذكاء اصطناعي</span><h3>Subtitle Forge AI</h3><p>أداة ذكاء اصطناعي لتوليد وتعديل ملفات الترجمة (SRT) للفيديوهات بدقة وسرعة.</p><span class="tags"><span>ترجمة</span><span>ذكاء اصطناعي</span><span>فيديو</span></span><span class="go">تجربة الأداة</span></a></div>
+  <p id="noResults" class="empty" hidden>لا توجد نتائج مطابقة. جرّب كلمة أخرى أو اختر «الكل».</p>
+</section>
 
-            <div class="social-bar">
-                <a href="https://www.youtube.com/@MajdFatihy" target="_blank" class="social-btn">📺 يوتيوب</a>
-                <a href="https://t.me/majdfathy" target="_blank" class="social-btn">💬 تليجرام</a>
-                <a href="https://wa.me/201066732514" target="_blank" class="social-btn">📱 واتساب</a>
-            </div>
-        </header>
+<div class="ad-zone" data-ad="mid"></div>
 
-        <main>
-            <h2 class="section-title">📂 الأدوات والمشاريع البرمجية</h2>
-            <div class="projects-grid" id="projectsContainer">
-                
-                <!-- 1. Money Fellows -->
-                <a href="https://majdfatihy.github.io/money-fellows-discount-300le/" target="_blank" class="project-card" data-name="money fellows ماني فيلوز كود خصم">
-                    <h3>💰 كود خصم Money Fellows</h3>
-                    <p>صفحة تسويقية لكود خصم ماني فيلوز (92962874) مع حاسبة تفاعلية لحساب القسط، رسوم الدور، والتوفير.</p>
-                    <span class="project-link">عرض الصفحة ↗</span>
-                </a>
+<section class="wrap prose">
+  <h2>ما هذه المنصة؟</h2>
+  <p>هذه هي الصفحة الرئيسية لمنصة ماجد فتحي، وهي مساحة تجمع في مكان واحد الأدوات والمشاريع التي طوّرها ونشرها على الويب لخدمة المطورين وصنّاع المحتوى والمدونين العرب. لكل مشروع صفحته وروابطه الخاصة، ويجمعها هنا فهرس واحد منظم يسهّل الوصول إليها من الهاتف أو الكمبيوتر دون البحث بين روابط متفرقة. ستجد أدوات عملية مثل ضغط الصور لمدونات بلوجر، وتحويل جهات اتصال فيسبوك، وتحليل قنوات يوتيوب، إلى جانب أدلة تشرح خدمات رقمية وأكواد خصم وإحالة، ومشروعاً يعتمد على الذكاء الاصطناعي لتوليد ملفات الترجمة.</p>
+</section>
 
-                <!-- 2. Online Earning Directory -->
-                <a href="https://majdfatihy.github.io/online-earning-directory/" target="_blank" class="project-card" data-name="دليل أرباحي المعتمد online earning directory">
-                    <h3>💎 دليل أرباحي المعتمد</h3>
-                    <p>دليل تفاعلي شامل لأفضل منصات الربح من الإنترنت، الصنابير، المهام، والأفيليت مع إثباتات الدفع الفورية.</p>
-                    <span class="project-link">تصفح المنصة ↗</span>
-                </a>
+<section class="wrap" aria-labelledby="h-why">
+  <h2 id="h-why">لماذا يمكنك الاعتماد على هذه الأدوات؟</h2>
+  <div class="grid4">
+    <div class="card"><h3>الخصوصية أولاً</h3><p>معظم الأدوات تعالج الملفات داخل متصفحك مباشرة، فلا تُرسل صورك أو بيانات جهات الاتصال إلى خادم خارجي. تفاصيل ذلك موضحة في <a href="privacy.html">سياسة الخصوصية</a>.</p></div>
+    <div class="card"><h3>مجانية ومفتوحة</h3><p>الأدوات متاحة دون اشتراك، وتُنشر كمشاريع مفتوحة المصدر يمكنك الاطلاع عليها عبر حساب GitHub أو اقتراح تحسين عليها.</p></div>
+    <div class="card"><h3>متجاوبة وسريعة</h3><p>التصميم يعمل على الهاتف والجهاز اللوحي والكمبيوتر، وبلا اعتماديات ثقيلة، لتفتح بسرعة حتى مع الإنترنت البطيء.</p></div>
+    <div class="card"><h3>شفافة في الإحالات</h3><p>بعض الصفحات تتضمن روابط إحالة أو أكواد خصم، ونوضح ذلك بجلاء في صفحة <a href="disclaimer.html">إخلاء المسؤولية</a>.</p></div>
+  </div>
+</section>
 
-                <!-- 3. Smart Link Gateway -->
-                <a href="https://majdfatihy.github.io/smart-link-gateway/" target="_blank" class="project-card" data-name="بوابة الروابط smart link gateway">
-                    <h3>🔗 بوابة الروابط الذكية</h3>
-                    <p>نظام متطور لتوليد الروابط المشفرة (Base64) وصفحة إعادة توجيه آمنة مزودة بعداد تنازلي وحماية للملفات.</p>
-                    <span class="project-link">فتح الأداة ↗</span>
-                </a>
+<section class="wrap prose" aria-labelledby="h-how">
+  <h2 id="h-how">كيف تبدأ؟</h2>
+  <ol class="steps">
+    <li>ابحث عن المشروع المناسب بالاسم، أو اختر نوعه من أزرار التصفية أعلى القائمة.</li>
+    <li>افتح صفحة المشروع واقرأ وصفه القصير لتعرف ما يفعله وما يحتاجه منك.</li>
+    <li>جرّب الأداة بملف أو بيانات تجريبية قبل استخدامها في عملك الفعلي.</li>
+    <li>إن واجهتك مشكلة أو لديك اقتراح، راسلنا عبر صفحة <a href="contact.html">اتصل بنا</a> مع ذكر اسم المشروع ونوع جهازك ومتصفحك.</li>
+  </ol>
+</section>
 
-                <!-- 4. Image Compressor -->
-                <a href="https://majdfatihy.github.io/image-compressor/" target="_blank" class="project-card" data-name="أداة ضغط الصور image compressor">
-                    <h3>🖼️ أداة ضغط الصور لبلوجر</h3>
-                    <p>ضغط وتقليل حجم الصور وتحويلها إلى صيغ الويب (WebP/AVIF) محلياً بالمتصفح لتسريع مدونات بلوجر.</p>
-                    <span class="project-link">استخدم الأداة ↗</span>
-                </a>
+<section class="wrap prose" aria-labelledby="h-faq">
+  <h2 id="h-faq">أسئلة شائعة</h2>
+  <details><summary>هل الأدوات مجانية؟</summary><p>نعم، جميع الأدوات المعروضة هنا متاحة للاستخدام دون رسوم. وقد تحتوي بعض الصفحات على روابط إحالة أو إعلانات تدعم تكاليف التطوير والاستضافة، دون أي تكلفة إضافية عليك.</p></details>
+  <details><summary>هل تُرفع ملفاتي إلى خادم؟</summary><p>الأدوات التي تعمل داخل المتصفح تعالج الملفات على جهازك. أما المشاريع التي تعتمد على خدمات خارجية، مثل أدوات الذكاء الاصطناعي، فقد ترسل البيانات إلى مزوّد الخدمة، ولذلك نوصي بقراءة صفحة المشروع وسياسة الخصوصية قبل الاستخدام.</p></details>
+  <details><summary>كيف أقترح أداة جديدة؟</summary><p>راسلنا عبر صفحة اتصل بنا واشرح المشكلة التي تريد حلّها. نراجع الاقتراحات ونضيف المشاريع الجديدة تباعاً إلى هذا الفهرس.</p></details>
+  <details><summary>هل أكواد الخصم مضمونة؟</summary><p>عروض الشركات تتغير دون إشعار، والمرجع النهائي دائماً هو التطبيق أو الموقع الرسمي للشركة. اقرأ صفحة إخلاء المسؤولية لمعرفة التفاصيل.</p></details>
+  <details><summary>كيف أبلغ عن خطأ في أداة؟</summary><p>أرسل لنا اسم الأداة ووصف الخطأ وخطوات تكراره عبر البريد الإلكتروني أو تليجرام، وسنراجعه ونصلحه في أقرب وقت ممكن.</p></details>
+</section>
 
-                <!-- 5. Facebook Contacts Converter -->
-                <a href="https://majdfatihy.github.io/facebook-contacts-converter/" target="_blank" class="project-card" data-name="محوّل جهات اتصال فيسبوك facebook contacts">
-                    <h3>📇 محوّل جهات اتصال فيسبوك</h3>
-                    <p>تحويل ملفات فيسبوك (HTML/JSON) إلى Excel و vCard و Google CSV مع إصلاح الأسماء العربية المشوهة.</p>
-                    <span class="project-link">تصفح الأداة ↗</span>
-                </a>
-
-                <!-- 6. YouTube Tool -->
-                <a href="https://majdfatihy.github.io/youtube-tool/" target="_blank" class="project-card" data-name="أداة يوتيوب الشاملة youtube tool">
-                    <h3>🚀 أداة يوتيوب الشاملة (YT Master)</h3>
-                    <p>استخراج وتحليل بيانات قنوات يوتيوب وقوائم التشغيل، رسوم بيانية، وتصدير للإكسيل مع تحميل الصور المصغرة.</p>
-                    <span class="project-link">فتح لوحة التحكم ↗</span>
-                </a>
-
-                <!-- 7. ShareIt Safebox Tool -->
-                <a href="https://majdfatihy.github.io/shareit-safebox-tool/" target="_blank" class="project-card" data-name="شيريت سيف بوكس shareit safebox">
-                    <h3>🛡️ أداة ShareIt Safebox</h3>
-                    <p>تخزين وإدارة الملفات والأدوات بأمان تام مع واجهة مستخدم سلسة ومتجاوبة لإدارة البيانات.</p>
-                    <span class="project-link">استعرض الأداة ↗</span>
-                </a>
-
-                <!-- 8. Bybit Referral Code -->
-                <a href="https://majdfatihy.github.io/bybit-referral-code-majd/" target="_blank" class="project-card" data-name="باي بت bybit referral code">
-                    <h3>🟡 دليل Bybit والبطاقة الافتراضية</h3>
-                    <p>دليل شامل لكود إحالة بايبت MAJD، هدايا المستخدم الجديد، البطاقة الافتراضية، والشحن المحلي (P2P).</p>
-                    <span class="project-link">اقرأ الدليل ↗</span>
-                </a>
-
-                <!-- 9. VidIQ Discount Codes -->
-                <a href="https://majdfatihy.github.io/vidiq-discount-codes/" target="_blank" class="project-card" data-name="فيديوايز vidiq discount codes">
-                    <h3>📊 أكواد خصم VidIQ</h3>
-                    <p>أحدث أكواد وعروض خصم أداة VidIQ الرسمية لتحسين السيو ومضاعفة مشاهدات قنوات اليوتيوب.</p>
-                    <span class="project-link">عرض الكود ↗</span>
-                </a>
-
-                <!-- 10. Subtitle Forge AI -->
-                <a href="https://subtitle-forge-ai.vercel.app/" target="_blank" class="project-card" data-name="توليد الترجمة الذكية subtitle forge ai">
-                    <h3>🤖 Subtitle Forge AI</h3>
-                    <p>أداة ذكاء اصطناعي متطورة لتوليد وتعديل ملفات الترجمة للفيديوهات بدقة وسرعة عالية.</p>
-                    <span class="project-link">تجربة الأداة ↗</span>
-                </a>
-
-            </div>
-        </main>
-
-        <footer>
-            <div class="footer-links-grid">
-                <a href="about.html">من نحن (About)</a>
-                <a href="contact.html">اتصل بنا (Contact)</a>
-                <a href="privacy.html">سياسة الخصوصية (Privacy Policy)</a>
-                <a href="terms.html">شروط الاستخدام (Terms of Use)</a>
-                <a href="disclaimer.html">إخلاء المسؤولية (Disclaimer)</a>
-            </div>
-            <p>جميع الحقوق محفوظة © 2026 | Majed Fathy Hub</p>
-        </footer>
-    </div>
-
-    <script>
-        function filterProjects() {
-            let query = document.getElementById('searchProjects').value.toLowerCase();
-            let cards = document.querySelectorAll('.project-card');
-            cards.forEach(card => {
-                let name = card.getAttribute('data-name').toLowerCase();
-                let text = card.innerText.toLowerCase();
-                if (name.includes(query) || text.includes(query)) {
-                    card.style.display = "flex";
-                } else {
-                    card.style.display = "none";
-                }
-            });
-        }
-    </script>
+<section class="wrap prose" aria-labelledby="h-src">
+  <h2 id="h-src">مصادر ومراجع رسمية</h2>
+  <p>التزمنا في بناء هذا الموقع بالإرشادات المنشورة رسمياً من الجهات المعنية بمحركات البحث والويب، ويمكنك مراجعتها مباشرة:</p>
+  <ul class="sources">
+    <li><a href="https://developers.google.com/search/docs/essentials" rel="noopener" target="_blank">Google Search Essentials</a> المتطلبات الأساسية لظهور المواقع في بحث Google.</li>
+    <li><a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" rel="noopener" target="_blank">إنشاء محتوى مفيد وموثوق</a> إرشادات Google لجودة المحتوى.</li>
+    <li><a href="https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a" rel="noopener" target="_blank">إرشادات Bing للمواقع</a> مبادئ الفهرسة في محرك Bing.</li>
+    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" rel="noopener" target="_blank">معايير WCAG</a> إرشادات إتاحة المحتوى لكل المستخدمين.</li>
+    <li><a href="https://docs.github.com/en/pages" rel="noopener" target="_blank">توثيق GitHub Pages</a> المنصة التي يُستضاف عليها الموقع.</li>
+  </ul>
+</section>
+</main>
+<div class="wrap"><div class="ad-zone" data-ad="seo"></div><div class="ad-zone" data-ad="end"></div></div>
+<footer class="site-footer"><div class="wrap foot-grid">
+<section><p class="f-title">ماجد فتحي</p><p>منصة عربية تجمع أدوات تعمل داخل المتصفح وأدلة موثقة ومشاريع ذكاء اصطناعي، من تطوير ماجد فتحي.</p><div class="social"><a href="https://www.youtube.com/@MajdFatihy" rel="noopener me" target="_blank">يوتيوب</a><a href="https://t.me/majdfathy" rel="noopener me" target="_blank">تليجرام</a><a href="https://wa.me/201066732514" rel="noopener me" target="_blank">واتساب</a><a href="https://magedfatihy.blogspot.com/" rel="noopener me" target="_blank">المدونة</a><a href="https://github.com/majdfatihy" rel="noopener me" target="_blank">GitHub</a><a href="https://www.facebook.com/majdfatihyfp" rel="noopener me" target="_blank">فيسبوك</a><a href="https://www.instagram.com/majdfatihy" rel="noopener me" target="_blank">إنستغرام</a></div></section>
+<nav aria-label="روابط سريعة"><p class="f-title">روابط سريعة</p><ul><li><a href="index.html">الرئيسية</a></li><li><a href="index.html#projects">المشاريع</a></li><li><a href="about.html">من نحن</a></li><li><a href="contact.html">اتصل بنا</a></li></ul></nav>
+<nav aria-label="الصفحات القانونية"><p class="f-title">الصفحات القانونية</p><ul><li><a href="privacy.html">سياسة الخصوصية</a></li><li><a href="terms.html">شروط الاستخدام</a></li><li><a href="disclaimer.html">إخلاء المسؤولية</a></li></ul></nav>
+<nav aria-label="مصادر رسمية"><p class="f-title">مصادر رسمية</p><ul><li><a href="https://developers.google.com/search/docs/essentials" rel="noopener" target="_blank">Google Search Essentials</a></li><li><a href="https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a" rel="noopener" target="_blank">إرشادات Bing للمواقع</a></li><li><a href="https://docs.github.com/en/pages" rel="noopener" target="_blank">توثيق GitHub Pages</a></li><li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" rel="noopener" target="_blank">معايير الوصول WCAG</a></li></ul></nav>
+</div><p class="copy">© 2026 ماجد فتحي · Majed Fathy Hub · جميع الحقوق محفوظة</p></footer>
+<button id="bgToggle" class="bg-toggle" type="button" aria-pressed="false" aria-label="إيقاف حركة الخلفية" title="إيقاف/تشغيل حركة الخلفية"><span class="ic" aria-hidden="true"></span></button>
+<script src="assets/js/ads.js" defer></script>
+<script src="assets/js/site.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,34 @@
+# ماجد فتحي (Majed Fathy Hub)
+
+> أدوات مجانية ومشاريع ويب مفتوحة المصدر. منصة عربية تجمع أدوات تعمل داخل المتصفح وأدلة موثقة ومشاريع ذكاء اصطناعي، من تطوير ماجد فتحي.
+
+الموقع الرسمي: https://majdfatihy.github.io/
+
+## المشاريع والأدوات
+- [كود خصم ماني فيللوز Money Fellows](https://majdfatihy.github.io/money-fellows-discount-300le/): صفحة كود الخصم 92962874 مع حاسبة تفاعلية للقسط ورسوم الدور والتوفير، وخطوات الاشتراك في الجمعية.
+- [دليل أرباحي المعتمد](https://majdfatihy.github.io/online-earning-directory/): دليل تفاعلي لأفضل منصات الربح من الإنترنت: الصنابير والمهام والأفيليت مع إثباتات الدفع.
+- [بوابة الروابط الذكية](https://majdfatihy.github.io/smart-link-gateway/): توليد روابط مشفرة (Base64) وصفحة إعادة توجيه آمنة بعداد تنازلي وحماية للملفات.
+- [أداة ضغط الصور لبلوجر](https://majdfatihy.github.io/image-compressor/): ضغط الصور وتحويلها إلى WebP وAVIF داخل المتصفح لتسريع مدونات بلوجر دون رفع الملفات.
+- [محوّل جهات اتصال فيسبوك](https://majdfatihy.github.io/facebook-contacts-converter/): تحويل ملفات فيسبوك (HTML وJSON) إلى Excel وvCard وGoogle CSV مع إصلاح الأسماء العربية المشوّهة.
+- [أداة يوتيوب الشاملة YT Master](https://majdfatihy.github.io/youtube-tool/): استخراج وتحليل بيانات القنوات وقوائم التشغيل مع رسوم بيانية وتصدير إلى Excel وتحميل الصور المصغّرة.
+- [أداة ShareIt Safebox](https://majdfatihy.github.io/shareit-safebox-tool/): تخزين وإدارة الملفات والبيانات بواجهة سلسة ومتجاوبة تعمل على الهاتف والكمبيوتر.
+- [دليل Bybit والبطاقة الافتراضية](https://majdfatihy.github.io/bybit-referral-code-majd/): دليل كود إحالة بايبت MAJD وهدايا المستخدم الجديد والبطاقة الافتراضية والشحن المحلي عبر P2P.
+- [أكواد خصم VidIQ](https://majdfatihy.github.io/vidiq-discount-codes/): أحدث عروض وأكواد خصم VidIQ الرسمية لتحسين السيو ومضاعفة مشاهدات قنوات يوتيوب.
+- [Subtitle Forge AI](https://subtitle-forge-ai.vercel.app/): أداة ذكاء اصطناعي لتوليد وتعديل ملفات الترجمة (SRT) للفيديوهات بدقة وسرعة.
+
+## صفحات الموقع
+- [من نحن](https://majdfatihy.github.io/about.html): تعرّف على منصة ماجد فتحي: رؤيتنا، طريقة بناء الأدوات المجانية المفتوحة المصدر، التزامنا بالخصوصية والشفافية، ومجالات عملنا التقنية.
+- [اتصل بنا](https://majdfatihy.github.io/contact.html): قنوات التواصل الرسمية مع ماجد فتحي: البريد الإلكتروني وتليجرام وواتساب ويوتيوب، مع نموذج رسالة جاهز وإرشادات للإبلاغ عن مشكلة تقنية.
+- [سياسة الخصوصية](https://majdfatihy.github.io/privacy.html): سياسة الخصوصية لموقع ماجد فتحي: البيانات التي نجمعها، ملفات الارتباط والتخزين المحلي، أدوات التحليل، الإعلانات، وحقوقك في بياناتك الشخصية.
+- [شروط الاستخدام](https://majdfatihy.github.io/terms.html): شروط وأحكام استخدام موقع وأدوات ماجد فتحي: الملكية الفكرية، الاستخدام المقبول، الروابط الخارجية، حدود المسؤولية وتعديل الشروط.
+- [إخلاء المسؤولية وروابط الإحالة](https://majdfatihy.github.io/disclaimer.html): إخلاء المسؤولية القانونية والمالية لموقع ماجد فتحي: الإفصاح عن روابط الإحالة وأكواد الخصم، وتنبيهات الاستثمار والعملات الرقمية وتغيّر العروض.
+
+## التواصل
+- البريد: fthymajd3701@gmail.com
+- يوتيوب: https://www.youtube.com/@MajdFatihy
+- تليجرام: https://t.me/majdfathy
+- واتساب: https://wa.me/201066732514
+- المدونة: https://magedfatihy.blogspot.com/
+- GitHub: https://github.com/majdfatihy
+- فيسبوك: https://www.facebook.com/majdfatihyfp
+- إنستغرام: https://www.instagram.com/majdfatihy
