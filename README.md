@@ -1,7 +1,7 @@
 <div dir="rtl" align="center">
 
-# 🚀 Majed Fathy | Hub & Projects Portfolio
-### Open-Source Web Tools & Projects Portfolio
+# 🚀 ماجد فتحي | Majed Fathy Hub & Projects Portfolio
+### محفظة الأدوات البرمجية ومشاريع الويب المفتوحة المصدر
 
 <p align="center">
   <a href="https://majdfatihy.github.io/" style="display: inline-flex; align-items: center; background: #0088cc; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 4px; gap: 6px;">
@@ -15,7 +15,7 @@
   </a>
 </p>
 
-**Official website and open-source portfolio of Majed Fathy. Featuring a collection of free client-side web apps and tools designed for developers, content creators, bloggers, and users looking for fast and secure solutions.**
+**الموقع الرسمي ومحفظة المشاريع المفتوحة والأدوات الرقمية المتقدمة للمطور ماجد فتحي. يضم مجموعة من التطبيقات والأدوات المجانية التي تعمل محلياً بالمتصفح لخدمة المطورين، صناع المحتوى، المدونين، والباحثين عن حلول تقنية سريعة وآمنة.**
 
 </div>
 
@@ -23,68 +23,68 @@
 
 <div dir="rtl">
 
-## 📖 Overview
+## 📖 نبذة عن المحفظة (Overview)
 
-This repository represents the main interface (`majdfatihy.github.io`) for all open-source web projects and tools I have developed. This hub provides quick and direct access to SEO optimization utilities, image compressors, contact converters, YouTube analytics tools, and financial/earning directories, while maintaining high standards of performance, security, and privacy.
+هذا المستودع يمثل الواجهة الرئيسية (`majdfatihy.github.io`) لجميع مشاريع وأدوات الويب المفتوحة المصدر التي قمت بتطويرها. تم تصميم هذه المحفظة لتوفر وصولاً سريعاً ومباشراً لكل أدوات تحسين السيو، ضغط الصور، محولات جهات الاتصال، أدوات يوتيوب، ومنصات الدليل المالي والربحي، مع الالتزام التام بأعلى معايير الأمان والخصوصية وسرعة الأداء.
 
 ---
 
-## 🗂️ Projects & Tools Directory
+## 🗂️ قائمة المشاريع والأدوات المتاحة (Projects Directory)
 
-The platform includes a diverse collection of utility and technical projects:
+تضم المنصة مجموعة واسعة ومتنوعة من المشاريع الخدمية والتقنية:
 
-| Project / Tool | Direct Link | Short Description |
+| المشروع والأداة | الرابط المباشر | الوصف المختصر |
 | :--- | :--- | :--- |
-| 💰 **Money Fellows Discount** | [View Page](https://majdfatihy.github.io/money-fellows-discount-300le/) | Landing page for Money Fellows promo code (`92962874`) with an interactive installment & fee calculator. |
-| 💎 **Verified Earn Directory** | [Browse Platform](https://majdfatihy.github.io/online-earning-directory/) | Interactive directory of trusted online earning platforms, faucets, microtasks, and crypto wallets. |
-| 🔗 **Smart Link Gateway** | [Open Tool](https://majdfatihy.github.io/smart-link-gateway/) | Advanced Base64 link encoder and secure redirect gateway featuring a countdown timer. |
-| 🖼️ **Image Compressor** | [Use Tool](https://majdfatihy.github.io/image-compressor/) | Client-side image compression and conversion tool (WebP/AVIF) to speed up blogs and websites. |
-| 📇 **Facebook Contacts Converter** | [Browse Tool](https://majdfatihy.github.io/facebook-contacts-converter/) | Convert Facebook export files (HTML/JSON) into Excel, vCard, and Google CSV with Arabic mojibake fix. |
-| 🚀 **YT Master Tool** | [Open Dashboard](https://majdfatihy.github.io/youtube-tool/) | Extract and analyze YouTube channel and playlist data, view charts, export to Excel, and download thumbnails. |
-| 🛡️ **ShareIt Safebox** | [Explore Tool](https://majdfatihy.github.io/shareit-safebox-tool/) | Secure file and asset management utility with a clean and responsive user interface. |
-| 🟡 **Bybit Referral Guide** | [Read Guide](https://majdfatihy.github.io/bybit-referral-code-majd/) | Comprehensive guide for Bybit referral code (`MAJD`), new-user gifts, virtual card, and local funding. |
-| 📊 **VidIQ Discount Codes** | [View Code](https://majdfatihy.github.io/vidiq-discount-codes/) | Latest official VidIQ discount codes and offers to boost SEO and channel growth. |
-| 🤖 **Subtitle Forge AI** | [Try Tool](https://subtitle-forge-ai.vercel.app/) | Advanced AI-powered tool to generate and edit video subtitles accurately and quickly. |
+| 💰 **كود خصم Money Fellows** | [تصفح الصفحة](https://majdfatihy.github.io/money-fellows-discount-300le/) | صفحة تسويقية لكود خصم ماني فيلوز (`92962874`) مع حاسبة تفاعلية للقسط والرسوم. |
+| 💎 **دليل أرباحي المعتمد** | [تصفح المنصة](https://majdfatihy.github.io/online-earning-directory/) | دليل تفاعلي شامل لأفضل منصات الربح من الإنترنت، الصنابير، المهام، والأفيليت مع إثباتات الدفع. |
+| 🔗 **بوابة الروابط الذكية** | [فتح الأداة](https://majdfatihy.github.io/smart-link-gateway/) | نظام متطور لتوليد الروابط المشفرة (`Base64`) وصفحة إعادة توجيه آمنة مزودة بعداد تنازلي. |
+| 🖼️ **أداة ضغط الصور لبلوجر** | [استخدم الأداة](https://majdfatihy.github.io/image-compressor/) | ضغط وتصغير حجم الصور وتحويلها إلى صيغ الويب (`WebP`/`AVIF`) محلياً لتسريع المدونات. |
+| 📇 **محوّل جهات اتصال فيسبوك** | [تصفح الأداة](https://majdfatihy.github.io/facebook-contacts-converter/) | تحويل ملفات فيسبوك (`HTML`/`JSON`) إلى Excel و vCard و Google CSV مع إصلاح الأسماء العربية. |
+| 🚀 **أداة يوتيوب الشاملة (YT Master)** | [فتح لوحة التحكم](https://majdfatihy.github.io/youtube-tool/) | استخراج وتحليل بيانات قنوات يوتيوب، رسوم بيانية، وتصدير للإكسيل وتحميل الصور المصغرة. |
+| 🛡️ **أداة ShareIt Safebox** | [استعرض الأداة](https://majdfatihy.github.io/shareit-safebox-tool/) | تخزين وإدارة الملفات والأدوات بأمان تام مع واجهة مستخدم سلسة ومتجاوبة. |
+| 🟡 **دليل Bybit والبطاقة** | [اقرأ الدليل](https://majdfatihy.github.io/bybit-referral-code-majd/) | دليل شامل لكود إحالة بايبت (`MAJD`), هدايا المستخدم الجديد، والبطاقة الافتراضية والشحن المحلي. |
+| 📊 **أكواد خصم VidIQ** | [عرض الكود](https://majdfatihy.github.io/vidiq-discount-codes/) | أحدث أكواد وعروض خصم أداة VidIQ الرسمية لتحسين السيو ومضاعفة المشاهدات. |
+| 🤖 **Subtitle Forge AI** | [تجربة الأداة](https://subtitle-forge-ai.vercel.app/) | أداة ذكاء اصطناعي متطورة لتوليد وتعديل ملفات الترجمة للفيديوهات بدقة وسرعة. |
 
 ---
 
-## ✨ Key Technical Features
+## ✨ المميزات التقنية العامة (Key Features)
 
-* 🔒 **100% Client-Side Privacy:** Utility tools process files locally within your browser without uploading data to external servers.
-* 📱 **Fully Responsive Design:** Optimized and compatible across all mobile phones, tablets, and desktop computers.
-* 🌓 **Dark / Light Mode:** Modern, eye-friendly interfaces that automatically adapt to system preferences.
-* ⚡ **Performance Optimized:** Built with minimal dependencies for instant loading times and top-tier technical SEO.
-
----
-
-## 📄 Legal & Support Pages
-
-To ensure maximum reliability and trust with search engines and security filters (such as Google and Microsoft SmartScreen), the platform includes:
-* [About](https://majdfatihy.github.io/about.html)
-* [Contact](https://majdfatihy.github.io/contact.html)
-* [Privacy Policy](https://majdfatihy.github.io/privacy.html)
-* [Terms of Use](https://majdfatihy.github.io/terms.html)
-* [Disclaimer](https://majdfatihy.github.io/disclaimer.html)
+* 🔒 **خصوصية تامة ومعالجة محلية (100% Client-Side):** الأدوات الخدمية لا ترفع ملفاتك إلى خوادم خارجية بل تعالجها داخل متصفحك.
+* 📱 **تصميم متجاوب بالكامل (Fully Responsive):** متوافق مع كافة الهواتف الذكية والأجهزة اللوحية وأجهزة الكمبيوتر.
+* 🌓 **الوضع الليلي والنهاري (Dark / Light Mode):** واجهات عصرية ومريحة للعين تتكيف تلقائياً مع تفضيلات النظام أو المستخدم.
+* ⚡ **أداء فائق السرعة (Performance Optimized):** مبنية بدون اعتماديات ثقيلة لضمان التحميل الفوري وتحقيق أعلى درجات السيو التقني.
 
 ---
 
-## 🌐 Official Links & Socials
+## 📄 الصفحات القانونية والتعريفية (Legal & Support Pages)
 
-Follow our latest tools and tutorials through official channels:
+لضمان أعلى معايير الموثوقية لدى محركات البحث وأنظمة الحماية (مثل Google و Microsoft SmartScreen), يتضمن الموقع الصفحات الأساسية التالية:
+* [من نحن (About)](https://majdfatihy.github.io/about.html)
+* [اتصل بنا (Contact)](https://majdfatihy.github.io/contact.html)
+* [سياسة الخصوصية (Privacy Policy)](https://majdfatihy.github.io/privacy.html)
+* [شروط الاستخدام (Terms of Use)](https://majdfatihy.github.io/terms.html)
+* [إخلاء المسؤولية (Disclaimer)](https://majdfatihy.github.io/disclaimer.html)
 
-| Platform | Direct Link | Description |
+---
+
+## 🌐 الروابط الرسمية وحسابات التواصل (Official Links)
+
+تابع أحدث الأدوات والشروحات عبر قنواتنا الرسمية:
+
+| المنصة | الرابط المباشر | الوصف |
 | :--- | :--- | :--- |
-| 🌐 **Main Hub** | [majdfatihy.github.io](https://majdfatihy.github.io/) | Central portal for all open-source tools |
-| 📺 **YouTube** | [Majd Fatihy Channel](https://www.youtube.com/@MajdFatihy) | Video tutorials for tools and programming |
-| 💬 **Telegram** | [Direct Contact - @majdfathy](https://t.me/majdfathy) | Support and inquiries |
-| 📱 **WhatsApp** | [Instant Chat](https://wa.me/201066732514) | Quick messaging via WhatsApp |
-| ✍️ **Blogger** | [Majd Fathy Blog](https://magedfatihy.blogspot.com/) | Detailed technical articles and guides |
-| 📧 **Email** | [fthymajd3701@gmail.com](mailto:fthymajd3701@gmail.com) | Official correspondence and announcements |
+| 🌐 **الموقع الرئيسي** | [majdfatihy.github.io](https://majdfatihy.github.io/) | بوابة المحفظة وجميع الأدوات المفتوحة |
+| 📺 **يوتيوب (YouTube)** | [قناة ماجد فتحي - MajdFatihy](https://www.youtube.com/@MajdFatihy) | الشروحات المرئية للأدوات والبرمجة |
+| 💬 **تيليجرام (Telegram)** | [التواصل المباشر - @majdfathy](https://t.me/majdfathy) | للاستفسارات والدعم الفني |
+| 📱 **واتساب (WhatsApp)** | [مراسلة فورية](https://wa.me/201066732514) | التواصل السريع عبر واتساب |
+| ✍️ **المدونة (Blogger)** | [مدونة ماجد فتحي](https://magedfatihy.blogspot.com/) | مقالات وشروحات تقنية مفصلة |
+| 📧 **البريد الإلكتروني** | [fthymajd3701@gmail.com](mailto:fthymajd3701@gmail.com) | للمراسلات الرسمية والإعلانات |
 
 ---
 
 <p align="center">
-  <b>Made with ❤️ by <a href="https://github.com/majdfatihy">Majed Fathy</a> © 2026 All rights reserved</b>
+  <b>صُنع بكل ❤️ بواسطة <a href="https://github.com/majdfatihy">ماجد فتحي (Majd Fatihy)</a> © 2026 جميع الحقوق محفوظة</b>
 </p>
 
 </div>
