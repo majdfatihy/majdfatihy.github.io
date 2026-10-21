@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ماجد فتحي | محفظة الأدوات ومشاريع الويب المفتوحة</title>
-    <meta name="description" content="الموقع الرسمي للمطور ماجد فتحي، يضم أدوات مجانية لمدوني بلوجر، محوّل جهات الاتصال، أداة يوتيوب، ودليل الربح من الإنترنت.">
+    <title>ماجد فتحي | منصة الأدوات البرمجية ومشاريع الويب المفتوحة</title>
+    <meta name="description" content="الموقع الرسمي للمطور ماجد فتحي، يضم أدوات مجانية لمدوني بلوجر، محوّل جهات الاتصال، أداة يوتيوب، أدوات الذكاء الاصطناعي، ودليل الربح من الإنترنت ومحافظ الويب.">
+    <meta name="keywords" content="ماجد فتحي, Majd Fatihy, أدوات ويب, ضغط الصور, محوّل جهات الاتصال, أداة يوتيوب, ماني فيلوز, بايبت">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://majdfatihy.github.io/">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
     <style>
         :root {
@@ -15,6 +18,7 @@
             --muted: #94a3b8;
             --primary: #0088cc;
             --accent: #10b981;
+            --hover-card: #2563eb;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -27,44 +31,82 @@
             flex-direction: column;
             min-height: 100vh;
         }
-        .container { max-width: 900px; margin: 0 auto; width: 100%; }
-        header { text-align: center; padding: 40px 0 20px 0; }
-        header h1 { font-size: 2.2rem; margin-bottom: 10px; color: #fff; }
-        header p { color: var(--muted); font-size: 1rem; }
+        .container { max-width: 1200px; margin: 0 auto; width: 100%; }
+        header { text-align: center; padding: 50px 0 30px 0; border-bottom: 1px solid var(--border); margin-bottom: 30px; }
+        header h1 { font-size: 2.5rem; margin-bottom: 12px; color: #fff; }
+        header p { color: var(--muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+        
+        .search-box {
+            margin: 25px auto 0;
+            max-width: 500px;
+            display: flex;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 5px 15px;
+        }
+        .search-input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--text);
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        .section-title { font-size: 1.5rem; margin-bottom: 20px; color: #60a5fa; border-right: 4px solid var(--primary); padding-right: 12px; }
+
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 20px;
-            margin-top: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 22px;
+            margin-bottom: 50px;
         }
         .project-card {
             background: var(--card);
             border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 22px;
+            border-radius: 16px;
+            padding: 25px;
             display: flex;
             flex-direction: column;
             gap: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            transition: transform 0.2s, border-color 0.2s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform 0.25s ease, border-color 0.25s ease;
             text-decoration: none;
             color: inherit;
         }
         .project-card:hover {
-            transform: translateY(-4px);
+            transform: translateY(-5px);
             border-color: var(--primary);
         }
-        .project-card h3 { font-size: 1.15rem; color: #60a5fa; }
-        .project-card p { font-size: 0.88px; color: var(--muted); font-size: 0.88rem; flex: 1; }
+        .project-card h3 { font-size: 1.25rem; color: #60a5fa; display: flex; align-items: center; gap: 8px; }
+        .project-card p { color: var(--muted); font-size: 0.92rem; flex: 1; }
         .project-link {
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             font-weight: bold;
             color: var(--accent);
             margin-top: auto;
         }
+        
+        .footer-links-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .footer-links-grid a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .footer-links-grid a:hover { color: var(--primary); }
+
         footer {
             text-align: center;
             margin-top: auto;
@@ -83,11 +125,11 @@
         .social-btn {
             background: var(--card);
             border: 1px solid var(--border);
-            padding: 6px 14px;
+            padding: 8px 16px;
             border-radius: 8px;
             color: var(--text);
             text-decoration: none;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             font-weight: bold;
             transition: 0.2s;
         }
@@ -98,8 +140,13 @@
 
     <div class="container">
         <header>
-            <h1>👨‍💻 ماجد فتحي | Majed Fathy</h1>
-            <p>مجموعة من أدوات ومشاريع الويب المفتوحة المصدر المصممة لخدمة المطورين، صناع المحتوى، ومدوني بلوجر.</p>
+            <h1>👨‍💻 ماجد فتحي | Majed Fathy Hub</h1>
+            <p>الموقع الرسمي ومحفظة المشاريع المفتوحة والأدوات الرقمية المتقدمة لخدمة المطورين، صناع المحتوى، والمدونين العرب.</p>
+            
+            <div class="search-box">
+                <input type="text" id="searchProjects" class="search-input" placeholder="ابحث في المشاريع والأدوات..." oninput="filterProjects()">
+            </div>
+
             <div class="social-bar">
                 <a href="https://www.youtube.com/@MajdFatihy" target="_blank" class="social-btn">📺 يوتيوب</a>
                 <a href="https://t.me/majdfathy" target="_blank" class="social-btn">💬 تليجرام</a>
@@ -108,50 +155,108 @@
         </header>
 
         <main>
-            <div class="projects-grid">
+            <h2 class="section-title">📂 الأدوات والمشاريع البرمجية</h2>
+            <div class="projects-grid" id="projectsContainer">
                 
-                <!-- مشروع 1 -->
-                <a href="https://majdfatihy.github.io/online-earning-directory/" target="_blank" class="project-card">
+                <!-- 1. Money Fellows -->
+                <a href="https://majdfatihy.github.io/money-fellows-discount-300le/" target="_blank" class="project-card" data-name="money fellows ماني فيلوز كود خصم">
+                    <h3>💰 كود خصم Money Fellows</h3>
+                    <p>صفحة تسويقية لكود خصم ماني فيلوز (92962874) مع حاسبة تفاعلية لحساب القسط، رسوم الدور، والتوفير.</p>
+                    <span class="project-link">عرض الصفحة ↗</span>
+                </a>
+
+                <!-- 2. Online Earning Directory -->
+                <a href="https://majdfatihy.github.io/online-earning-directory/" target="_blank" class="project-card" data-name="دليل أرباحي المعتمد online earning directory">
                     <h3>💎 دليل أرباحي المعتمد</h3>
                     <p>دليل تفاعلي شامل لأفضل منصات الربح من الإنترنت، الصنابير، المهام، والأفيليت مع إثباتات الدفع الفورية.</p>
                     <span class="project-link">تصفح المنصة ↗</span>
                 </a>
 
-                <!-- مشروع 2 -->
-                <a href="https://majdfatihy.github.io/image-compressor/" target="_blank" class="project-card">
+                <!-- 3. Smart Link Gateway -->
+                <a href="https://majdfatihy.github.io/smart-link-gateway/" target="_blank" class="project-card" data-name="بوابة الروابط smart link gateway">
+                    <h3>🔗 بوابة الروابط الذكية</h3>
+                    <p>نظام متطور لتوليد الروابط المشفرة (Base64) وصفحة إعادة توجيه آمنة مزودة بعداد تنازلي وحماية للملفات.</p>
+                    <span class="project-link">فتح الأداة ↗</span>
+                </a>
+
+                <!-- 4. Image Compressor -->
+                <a href="https://majdfatihy.github.io/image-compressor/" target="_blank" class="project-card" data-name="أداة ضغط الصور image compressor">
                     <h3>🖼️ أداة ضغط الصور لبلوجر</h3>
-                    <p>ضغط وتقليل حجم الصور وتحويلها إلى WebP/AVIF محلياً بالمتصفح لتسريع مدونات بلوجر والمواقع.</p>
+                    <p>ضغط وتقليل حجم الصور وتحويلها إلى صيغ الويب (WebP/AVIF) محلياً بالمتصفح لتسريع مدونات بلوجر.</p>
                     <span class="project-link">استخدم الأداة ↗</span>
                 </a>
 
-                <!-- مشروع 3 -->
-                <a href="https://majdfatihy.github.io/facebook-contacts-converter/" target="_blank" class="project-card">
+                <!-- 5. Facebook Contacts Converter -->
+                <a href="https://majdfatihy.github.io/facebook-contacts-converter/" target="_blank" class="project-card" data-name="محوّل جهات اتصال فيسبوك facebook contacts">
                     <h3>📇 محوّل جهات اتصال فيسبوك</h3>
                     <p>تحويل ملفات فيسبوك (HTML/JSON) إلى Excel و vCard و Google CSV مع إصلاح الأسماء العربية المشوهة.</p>
                     <span class="project-link">تصفح الأداة ↗</span>
                 </a>
 
-                <!-- مشروع 4 -->
-                <a href="https://majdfatihy.github.io/bybit-referral-code-majd/" target="_blank" class="project-card">
+                <!-- 6. YouTube Tool -->
+                <a href="https://majdfatihy.github.io/youtube-tool/" target="_blank" class="project-card" data-name="أداة يوتيوب الشاملة youtube tool">
+                    <h3>🚀 أداة يوتيوب الشاملة (YT Master)</h3>
+                    <p>استخراج وتحليل بيانات قنوات يوتيوب وقوائم التشغيل، رسوم بيانية، وتصدير للإكسيل مع تحميل الصور المصغرة.</p>
+                    <span class="project-link">فتح لوحة التحكم ↗</span>
+                </a>
+
+                <!-- 7. ShareIt Safebox Tool -->
+                <a href="https://majdfatihy.github.io/shareit-safebox-tool/" target="_blank" class="project-card" data-name="شيريت سيف بوكس shareit safebox">
+                    <h3>🛡️ أداة ShareIt Safebox</h3>
+                    <p>تخزين وإدارة الملفات والأدوات بأمان تام مع واجهة مستخدم سلسة ومتجاوبة لإدارة البيانات.</p>
+                    <span class="project-link">استعرض الأداة ↗</span>
+                </a>
+
+                <!-- 8. Bybit Referral Code -->
+                <a href="https://majdfatihy.github.io/bybit-referral-code-majd/" target="_blank" class="project-card" data-name="باي بت bybit referral code">
                     <h3>🟡 دليل Bybit والبطاقة الافتراضية</h3>
-                    <p>دليل شامل لكود إحالة بايبت MAJD، هدايا المستخدم الجديد، البطاقة الافتراضية، والشحن المحلي.</p>
+                    <p>دليل شامل لكود إحالة بايبت MAJD، هدايا المستخدم الجديد، البطاقة الافتراضية، والشحن المحلي (P2P).</p>
                     <span class="project-link">اقرأ الدليل ↗</span>
                 </a>
 
-                <!-- مشروع 5 -->
-                <a href="https://majdfatihy.github.io/money-fellows-discount-300le/" target="_blank" class="project-card">
-                    <h3>💰 كود خصم Money Fellows</h3>
-                    <p>صفحة تسويقية لكود خصم ماني فيلوز (92962874) مع حاسبة تفاعلية وجدول الرسوم والخصومات.</p>
-                    <span class="project-link">عرض الصفحة ↗</span>
+                <!-- 9. VidIQ Discount Codes -->
+                <a href="https://majdfatihy.github.io/vidiq-discount-codes/" target="_blank" class="project-card" data-name="فيديوايز vidiq discount codes">
+                    <h3>📊 أكواد خصم VidIQ</h3>
+                    <p>أحدث أكواد وعروض خصم أداة VidIQ الرسمية لتحسين السيو ومضاعفة مشاهدات قنوات اليوتيوب.</p>
+                    <span class="project-link">عرض الكود ↗</span>
+                </a>
+
+                <!-- 10. Subtitle Forge AI -->
+                <a href="https://subtitle-forge-ai.vercel.app/" target="_blank" class="project-card" data-name="توليد الترجمة الذكية subtitle forge ai">
+                    <h3>🤖 Subtitle Forge AI</h3>
+                    <p>أداة ذكاء اصطناعي متطورة لتوليد وتعديل ملفات الترجمة للفيديوهات بدقة وسرعة عالية.</p>
+                    <span class="project-link">تجربة الأداة ↗</span>
                 </a>
 
             </div>
         </main>
 
         <footer>
-            <p>جميع الحقوق محفوظة © 2026 | Majed Fathy</p>
+            <div class="footer-links-grid">
+                <a href="about.html">من نحن (About)</a>
+                <a href="contact.html">اتصل بنا (Contact)</a>
+                <a href="privacy.html">سياسة الخصوصية (Privacy Policy)</a>
+                <a href="terms.html">شروط الاستخدام (Terms of Use)</a>
+                <a href="disclaimer.html">إخلاء المسؤولية (Disclaimer)</a>
+            </div>
+            <p>جميع الحقوق محفوظة © 2026 | Majed Fathy Hub</p>
         </footer>
     </div>
 
+    <script>
+        function filterProjects() {
+            let query = document.getElementById('searchProjects').value.toLowerCase();
+            let cards = document.querySelectorAll('.project-card');
+            cards.forEach(card => {
+                let name = card.getAttribute('data-name').toLowerCase();
+                let text = card.innerText.toLowerCase();
+                if (name.includes(query) || text.includes(query)) {
+                    card.style.display = "flex";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        }
+    </script>
 </body>
 </html>
