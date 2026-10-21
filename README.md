@@ -8,9 +8,9 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@majdfathy-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/majdfathy)
 
 <p align="center">
-  <a href="https://majdfatihy.github.io/"><b>🌐 الموقع الرئيسي</b></a> •
-  <a href="https://www.youtube.com/@MajdFatihy"><b>📺 الشروحات بالفيديو (يوتيوب)</b></a> •
-  <a href="https://t.me/majdfathy"><b>💬 التواصل المباشر (تليجرام)</b></a>
+  <a href="https://majdfatihy.github.io/" style="display: inline-block; background: #0088cc; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 4px;">🌐 الموقع الرئيسي</a>
+  <a href="https://www.youtube.com/@MajdFatihy" style="display: inline-block; background: #ff0000; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 4px;">📺 الشروحات بالفيديو (يوتيوب)</a>
+  <a href="https://t.me/majdfathy" style="display: inline-block; background: #229ed9; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 4px;">💬 التواصل المباشر (تليجرام)</a>
 </p>
 
 **الموقع الرسمي ومحفظة المشاريع المفتوحة والأدوات الرقمية المتقدمة للمطور ماجد فتحي. يضم مجموعة من التطبيقات والأدوات المجانية التي تعمل محلياً بالمتصفح لخدمة المطورين، صناع المحتوى، المدونين، والباحثين عن حلول تقنية سريعة وآمنة.**
