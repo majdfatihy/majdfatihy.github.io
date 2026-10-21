@@ -3,10 +3,6 @@
 # 🚀 ماجد فتحي | Majed Fathy Hub & Projects Portfolio
 ### محفظة الأدوات البرمجية ومشاريع الويب المفتوحة المصدر
 
-[![GitHub Pages](https://img.shields.io/badge/Live_Hub-تصفح_الموقع_الرئيسي-0088cc?style=for-the-badge&logo=google-chrome&logoColor=white)](https://majdfatihy.github.io/)
-[![YouTube Channel](https://img.shields.io/badge/YouTube-@MajdFatihy-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@MajdFatihy)
-[![Telegram](https://img.shields.io/badge/Telegram-@majdfathy-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/majdfathy)
-
 <p align="center">
   <a href="https://majdfatihy.github.io/" style="display: inline-flex; align-items: center; background: #0088cc; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 4px; gap: 6px;">
     <span>🌐</span> الموقع الرئيسي
