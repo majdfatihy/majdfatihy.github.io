@@ -2,7 +2,7 @@
 
 # ماجد فتحي | Majed Fathy Hub
 
-الموقع الرسمي: <https://majdfatihy.github.io/> — فهرس الأدوات والمشاريع المفتوحة المصدر.
+الموقع الرسمي: <https://dev.majdfatihy.com/> — فهرس الأدوات والمشاريع المفتوحة المصدر.
 
 ## كيف أضيف مشروعاً جديداً؟
 1. افتح `data/projects.json` وانسخ أي كتلة مشروع وعدّل بياناتها (`title`, `icon`, `category`, `url`, `description`, `tags`, `cta`).
