@@ -38,4 +38,4 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-Sitemap: https://majdfatihy.github.io/sitemap.xml
+Sitemap: https://dev.majdfatihy.com/sitemap.xml
