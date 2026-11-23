@@ -1,122 +1,186 @@
 {
-  "schema_version": 1,
   "pages": {
     "https://dev.majdfatihy.com/": {
-      "created_at": null,
+      "created_at": "2026-10-21",
+      "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
+      "hash": "4d8d28c4fc9397bbf64ed03122c2a236e00bb765d6d42c5d9f4b83f38933a0e9",
+      "lastmod": "2026-11-22"
     },
     "https://dev.majdfatihy.com/about.html": {
-      "created_at": null,
+      "created_at": "2026-10-21",
+      "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
+      "hash": "68a4bff1e7bb543ed1aeb3694f4843f0fe2b78b89de69c0643dd0d62940dedd4",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/bybit-referral-code-majd/": {
+      "created_at": "2026-10-18",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "a03e6a7e4e590dff77b927451708dbf8e0cb557fa81eae44c4037b39a51e0725",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/bybit-referral-code-majd/ar/": {
+      "created_at": "2026-10-18",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "73fccb42c0f146d3dc6569fced5199e1ccfa6646bea89a2d996bae316e488a9b",
+      "lastmod": "2026-11-12"
     },
     "https://dev.majdfatihy.com/contact.html": {
-      "created_at": null,
+      "created_at": "2026-10-21",
+      "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
+      "hash": "0e8ec6ee61864785dbdfc9cbb3127cf716f6e8c85fe2789cd50420e5dfeebd56",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/disclaimer.html": {
+      "created_at": "2026-10-21",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "82f1293a140604b96585acc47db6b6a663e327c5d7ea71e76836d91602ef9d12",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/facebook-contacts-converter/": {
+      "created_at": "2026-10-04",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "de769075d559cae316c1eef40e9818a30b9a0dcb46655c6f577584194e812dcf",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/grey-virtual-card-ai-subscriptions/": {
+      "created_at": "2026-11-08",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "1ed1bc90fbf033c5805845277e88f5cc1bd7fd69d752184b82a1cc7a4f86a5a3",
+      "lastmod": "2026-11-13"
+    },
+    "https://dev.majdfatihy.com/grey-virtual-card-ai-subscriptions/en/": {
+      "created_at": "2026-11-08",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "55ce3948be1267bf287226ae0684b8e2d1f04f2b189c661256c762327e9fa659",
+      "lastmod": "2026-11-13"
+    },
+    "https://dev.majdfatihy.com/image-compressor/": {
+      "created_at": "2026-09-03",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "b2b108f4e0e1b911d8ee7dc3f4add23e22c2a58adb84ea2822d3abc764d051e1",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/international-payment-guide/": {
+      "created_at": "2026-10-28",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "8be6e0bb3ba6627994dfe196daaf5ed2f2ffabbad901c5e1f892d8a6453ce907",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/international-payment-guide/en/": {
+      "created_at": "2026-10-28",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "415b54b9073ec08f6d5775099c0eca9e9fa57f026654e4bfaab4c633894a71ff",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/majd11/": {
+      "created_at": "2026-10-07",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23"
+    },
+    "https://dev.majdfatihy.com/money-fellows-discount-300le/": {
+      "created_at": "2026-10-14",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "77022479a8a616e3d09550209359e58836c179cc5c72cfbf4c198c84723e44b6",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/noon-coupons/": {
+      "created_at": "2026-11-13",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "b03a0df44ee17deb5fe8aa7fc653307593e710cdc72aa953e7ff4ac303bf1bc2",
+      "lastmod": "2026-11-13"
+    },
+    "https://dev.majdfatihy.com/nsave-virtual-visa-card-usd-account/": {
+      "created_at": "2026-11-13",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "b88553c4bd9d71e25bed7cbef2f6cfba850f6c6171a035697a92ed8b58d30c5a",
+      "lastmod": "2026-11-13"
+    },
+    "https://dev.majdfatihy.com/online-earning-directory/": {
+      "created_at": "2026-09-07",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "a912299822125eccf5ef7d6b9d180dc49cff0cbf6393f1f2e1a7d92ac27e92b9",
+      "lastmod": "2026-11-12"
     },
     "https://dev.majdfatihy.com/privacy.html": {
-      "created_at": null,
+      "created_at": "2026-10-21",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "3823ef5f9d2800295e7eccb2b0a4127d43163712017b477054e53bb0457af83a",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/procurement-specialist/": {
+      "created_at": "2026-11-17",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "7337c60861078bcbeba471c2ebdcfe991ff822ef72798d657bac8668ebe4c87d",
+      "lastmod": "2026-11-22"
+    },
+    "https://dev.majdfatihy.com/procurement-specialist/en/": {
+      "created_at": "2026-11-21",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "a91c198901abb9e196192890328d21ec2e4457263d38cc57e33c8275e1215a60",
+      "lastmod": "2026-11-22"
+    },
+    "https://dev.majdfatihy.com/ptc-website/": {
+      "created_at": "2026-09-26",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23"
+    },
+    "https://dev.majdfatihy.com/shareit-safebox-tool/": {
+      "created_at": "2026-10-14",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "f388625ee4c3fd0c26b10756ac8d0d6d88668a74e82f864a2afdfd8a2431c945",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/smart-link-gateway/": {
+      "created_at": "2026-10-07",
+      "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
       "lastmod": "2026-10-22"
     },
     "https://dev.majdfatihy.com/terms.html": {
-      "created_at": null,
+      "created_at": "2026-10-21",
+      "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/disclaimer.html": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/money-fellows-discount-300le/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/online-earning-directory/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/smart-link-gateway/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/image-compressor/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/facebook-contacts-converter/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/youtube-tool/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/shareit-safebox-tool/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/bybit-referral-code-majd/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
+      "hash": "031b9c552540a07caf0308c6d96ca01fbc2eaeca721dc995729ee2c0161da5fb",
+      "lastmod": "2026-11-12"
     },
     "https://dev.majdfatihy.com/vidiq-discount-codes/": {
-      "created_at": null,
+      "created_at": "2026-10-17",
+      "creation_source": "first_git_commit_for_page_file",
+      "first_seen": "2026-11-23",
+      "hash": "c400d8c57e93978be97e7ed9ad59a363d4795e7e52098a70347d39efb65e06f8",
+      "lastmod": "2026-11-12"
+    },
+    "https://dev.majdfatihy.com/youtube-tool/": {
+      "created_at": "2026-10-05",
+      "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
       "lastmod": "2026-10-22"
     },
-    "https://dev.majdfatihy.com/procurement-specialist/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-11-22"
-    },
-    "https://dev.majdfatihy.com/procurement-specialist/en/": {
-      "created_at": null,
-      "first_seen": "2026-11-23",
-      "lastmod": "2026-11-22"
-    },
-    "https://dev.majdfatihy.com/international-payment-guide/": {
-      "created_at": null,
-      "first_seen": "2026-11-23"
-    },
-    "https://dev.majdfatihy.com/international-payment-guide/en/": {
-      "created_at": null,
-      "first_seen": "2026-11-23"
-    },
-    "https://dev.majdfatihy.com/grey-virtual-card-ai-subscriptions/": {
-      "created_at": null,
-      "first_seen": "2026-11-23"
-    },
-    "https://dev.majdfatihy.com/noon-coupons/": {
-      "created_at": null,
-      "first_seen": "2026-11-23"
-    },
-    "https://dev.majdfatihy.com/nsave-virtual-visa-card-usd-account/": {
-      "created_at": null,
-      "first_seen": "2026-11-23"
-    },
-    "https://dev.majdfatihy.com/ptc-website/": {
-      "created_at": null,
-      "first_seen": "2026-11-23"
-    },
     "https://dev.majdfatihy.com/youtube.tool.share298/": {
-      "created_at": null,
-      "first_seen": "2026-11-23"
-    },
-    "https://dev.majdfatihy.com/majd11/": {
-      "created_at": null,
+      "created_at": "2026-10-05",
+      "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23"
     }
-  }
+  },
+  "schema_version": 1
 }
