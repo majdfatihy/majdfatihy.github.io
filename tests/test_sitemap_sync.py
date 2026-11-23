@@ -64,6 +64,35 @@ class SitemapSyncTests(unittest.TestCase):
                 sync.render(data)
                 self.assertEqual(before, site.read_bytes())
 
+    def test_noindex_urls_are_excluded_from_registry_sitemap_and_projects(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "data").mkdir()
+            (root / "data/site.json").write_text(
+                '{"pages":[{"slug":"index"}]}', encoding="utf-8")
+            (root / "data/projects.json").write_text(
+                '{"projects":[{"url":"https://dev.majdfatihy.com/tool/"},'
+                '{"url":"https://dev.majdfatihy.com/redirect/"}]}',
+                encoding="utf-8")
+            site = root / "sitemap.xml"
+            site.write_text(
+                '<?xml version="1.0" encoding="UTF-8"?>\\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+                '<url><loc>https://dev.majdfatihy.com/</loc></url>'
+                '<url><loc>https://dev.majdfatihy.com/redirect/</loc></url>'
+                '</urlset>\\n', encoding="utf-8")
+            data = {"schema_version": 1, "pages": {
+                "https://dev.majdfatihy.com/redirect/": {"noindex": True}
+            }}
+            with patch.object(sync, "ROOT", root), patch.object(sync, "SITEMAP", site):
+                sync.render(data)
+                xml = ET.parse(site)
+                locs = [el.text for el in xml.getroot().iter()
+                        if el.tag.endswith("}loc")]
+                self.assertIn("https://dev.majdfatihy.com/", locs)
+                self.assertIn("https://dev.majdfatihy.com/tool/", locs)
+                self.assertNotIn("https://dev.majdfatihy.com/redirect/", locs)
+
     def test_robots_meta_blocks_new_page(self):
         url = "https://dev.majdfatihy.com/tool/"
         base = (f'<html><head><title>Useful tool</title>'
