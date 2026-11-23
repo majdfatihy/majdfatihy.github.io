@@ -174,12 +174,13 @@ def load_registry():
     return data
 
 def collect_urls(data):
-    urls=set(data["pages"])
+    # Explicitly noindexed pages stay accessible but must not appear in the sitemap.
+    urls={url for url in data["pages"] if not data["pages"].get(url,{}).get("noindex")}
     if SITEMAP.exists():
         xml=ET.parse(SITEMAP).getroot()
         for item in xml.findall(f"{{{NS}}}url"):
             url=norm(item.findtext(f"{{{NS}}}loc") or "")
-            if url:
+            if url and not data["pages"].get(url,{}).get("noindex"):
                 urls.add(url)
                 modified=item.findtext(f"{{{NS}}}lastmod")
                 if modified:
@@ -187,11 +188,12 @@ def collect_urls(data):
     site=json.loads((ROOT/"data/site.json").read_text("utf-8"))
     for page in site["pages"]:
         loc=BASE+"/" if page["slug"]=="index" else f"{BASE}/{page['slug']}.html"
-        urls.add(loc)
+        if not data["pages"].get(loc,{}).get("noindex"):
+            urls.add(loc)
     projects=json.loads((ROOT/"data/projects.json").read_text("utf-8"))
     for project in projects["projects"]:
         loc=norm(project["url"])
-        if loc:
+        if loc and not data["pages"].get(loc,{}).get("noindex"):
             urls.add(loc)
     return urls
 
