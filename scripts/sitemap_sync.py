@@ -66,7 +66,7 @@ class Page(HTMLParser):
         self.in_title=False
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
-        if tag in ("script","style","noscript","svg"):
+        if tag in ("script","style","noscript","svg","footer","nav"):
             self.skip+=1
         if tag=="title":
             self.in_title=True
@@ -87,7 +87,7 @@ class Page(HTMLParser):
     def handle_startendtag(self,tag,attrs):
         self.handle_starttag(tag,attrs)
     def handle_endtag(self,tag):
-        if tag in ("script","style","noscript","svg"):
+        if tag in ("script","style","noscript","svg","footer","nav"):
             self.skip=max(0,self.skip-1)
         if tag=="title":
             self.in_title=False
