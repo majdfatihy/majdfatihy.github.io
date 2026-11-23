@@ -76,11 +76,11 @@ class SitemapSyncTests(unittest.TestCase):
                 encoding="utf-8")
             site = root / "sitemap.xml"
             site.write_text(
-                '<?xml version="1.0" encoding="UTF-8"?>\\n'
+                '<?xml version="1.0" encoding="UTF-8"?>\n'
                 '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                 '<url><loc>https://dev.majdfatihy.com/</loc></url>'
                 '<url><loc>https://dev.majdfatihy.com/redirect/</loc></url>'
-                '</urlset>\\n', encoding="utf-8")
+                '</urlset>\n', encoding="utf-8")
             data = {"schema_version": 1, "pages": {
                 "https://dev.majdfatihy.com/redirect/": {"noindex": True}
             }}
