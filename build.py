@@ -3,12 +3,14 @@
 إضافة مشروع جديد: أضف كتلة جديدة في data/projects.json ثم شغّل الأمر.
 (اختياري) تاريخ مخصص:  python build.py --date 2026-10-22"""
 import json, re, sys, html, datetime, pathlib
+from scripts.sitemap_sync import load_registry, render
 
 ROOT = pathlib.Path(__file__).parent
 S = json.loads((ROOT / 'data/site.json').read_text('utf-8'))
 PR = json.loads((ROOT / 'data/projects.json').read_text('utf-8'))
 TODAY = sys.argv[sys.argv.index('--date') + 1] if '--date' in sys.argv else datetime.date.today().isoformat()
 BASE = S['url'].rstrip('/')
+PAGE_DATES = load_registry()['pages']
 E = lambda s: html.escape(str(s), quote=True)
 CATS = {c['id']: c['label'] for c in PR['categories']}
 OG = f'{BASE}/assets/img/og-image.png'
@@ -51,7 +53,12 @@ def jsonld(pg):
     page = {'@type': pg['type'], '@id': url_of(pg['slug']) + '#webpage', 'url': url_of(pg['slug']),
             'name': pg['title'], 'description': pg['description'], 'inLanguage': S['lang'],
             'isPartOf': {'@id': BASE + '/#website'}, 'author': {'@id': BASE + '/#author'},
-            'dateModified': TODAY, 'primaryImageOfPage': {'@type': 'ImageObject', 'url': OG, 'width': 1200, 'height': 630}}
+            'primaryImageOfPage': {'@type': 'ImageObject', 'url': OG, 'width': 1200, 'height': 630}}
+    metadata = PAGE_DATES.get(url_of(pg['slug']), {})
+    if metadata.get('created_at'):
+        page['datePublished'] = metadata['created_at']
+    if metadata.get('lastmod'):
+        page['dateModified'] = metadata['lastmod']
     g = []
     if pg['slug'] == 'index':
         g.append({'@type': 'WebSite', '@id': BASE + '/#website', 'url': BASE + '/', 'name': S['name'],
@@ -184,14 +191,8 @@ def main():
     (ROOT / '404.html').write_text(head(nf, True).replace('<canvas', '<canvas') + header('404.html') +
                                    render((ROOT / 'content/404.html').read_text('utf-8')) + footer(), 'utf-8')
 
-    # sitemap.xml: صفحات الموقع + مشاريع نفس النطاق
-    urls = [(url_of(p['slug']), p['priority'], p['freq']) for p in S['pages']]
-    urls += [(p['url'], '0.8', 'weekly') for p in PR['projects'] if p['url'].startswith(BASE)]
-    sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for u, pr, fr in urls:
-        sm.append(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod><changefreq>{fr}</changefreq><priority>{pr}</priority></url>')
-    sm.append('</urlset>')
-    (ROOT / 'sitemap.xml').write_text('\n'.join(sm) + '\n', 'utf-8')
+    # sitemap.xml: preserve existing & discovered URLs; never replace lastmod with build date
+    render(load_registry())
 
     # llms.txt
     L = [f'# {S["name"]} ({S["name_en"]})', '', f'> {S["tagline"]}. {S["footer_blurb"]}', '',
