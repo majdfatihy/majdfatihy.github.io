@@ -207,7 +207,12 @@ def record_page(data,url,digest,now):
             item["creation_source"]="first_git_commit_for_page_file"
         if prior and prior!=digest:
             previous=item.get("lastmod")
-            item["lastmod"]=modified if modified and (not previous or modified>=previous) else now
+            if modified and (not previous or modified>=previous):
+                item["lastmod"]=modified
+            else:
+                # Unknown update date: omit lastmod rather than invent today.
+                item.pop("lastmod",None)
+                print("UNKNOWN_LASTMOD",url)
         elif not prior and modified:
             item["lastmod"]=modified
     if digest:
