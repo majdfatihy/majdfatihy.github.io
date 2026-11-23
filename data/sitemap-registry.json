@@ -54,14 +54,14 @@
       "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
       "hash": "1ed1bc90fbf033c5805845277e88f5cc1bd7fd69d752184b82a1cc7a4f86a5a3",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     "https://dev.majdfatihy.com/grey-virtual-card-ai-subscriptions/en/": {
       "created_at": "2026-11-08",
       "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
       "hash": "55ce3948be1267bf287226ae0684b8e2d1f04f2b189c661256c762327e9fa659",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     "https://dev.majdfatihy.com/image-compressor/": {
       "created_at": "2026-09-03",
@@ -84,11 +84,6 @@
       "hash": "415b54b9073ec08f6d5775099c0eca9e9fa57f026654e4bfaab4c633894a71ff",
       "lastmod": "2026-11-23"
     },
-    "https://dev.majdfatihy.com/majd11/": {
-      "created_at": "2026-10-07",
-      "creation_source": "first_git_commit_for_page_file",
-      "first_seen": "2026-11-23"
-    },
     "https://dev.majdfatihy.com/money-fellows-discount-300le/": {
       "created_at": "2026-10-14",
       "creation_source": "first_git_commit_for_page_file",
@@ -101,7 +96,7 @@
       "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
       "hash": "b03a0df44ee17deb5fe8aa7fc653307593e710cdc72aa953e7ff4ac303bf1bc2",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     "https://dev.majdfatihy.com/nsave-virtual-visa-card-usd-account/": {
       "created_at": "2026-11-13",
@@ -144,11 +139,6 @@
       "hash": "a91c198901abb9e196192890328d21ec2e4457263d38cc57e33c8275e1215a60",
       "lastmod": "2026-11-22"
     },
-    "https://dev.majdfatihy.com/ptc-website/": {
-      "created_at": "2026-09-26",
-      "creation_source": "first_git_commit_for_page_file",
-      "first_seen": "2026-11-23"
-    },
     "https://dev.majdfatihy.com/shareit-safebox-tool/": {
       "created_at": "2026-10-14",
       "creation_source": "first_git_commit_for_page_file",
@@ -160,7 +150,9 @@
       "created_at": "2026-10-07",
       "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
-      "lastmod": "2026-10-22"
+      "lastmod": "2026-10-22",
+      "noindex": true,
+      "indexability_reason": "Redirect utility page; keep accessible to users but exclude from search index and sitemap."
     },
     "https://dev.majdfatihy.com/terms.html": {
       "created_at": "2026-10-21",
@@ -181,11 +173,6 @@
       "creation_source": "first_git_commit_for_page_file",
       "first_seen": "2026-11-23",
       "lastmod": "2026-10-22"
-    },
-    "https://dev.majdfatihy.com/youtube.tool.share298/": {
-      "created_at": "2026-10-05",
-      "creation_source": "first_git_commit_for_page_file",
-      "first_seen": "2026-11-23"
     }
   },
   "schema_version": 1
