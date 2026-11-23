@@ -12,7 +12,7 @@
 - [محوّل جهات اتصال فيسبوك](https://dev.majdfatihy.com/facebook-contacts-converter/): تحويل ملفات فيسبوك (HTML وJSON) إلى Excel وvCard وGoogle CSV مع إصلاح الأسماء العربية المشوّهة.
 - [أداة يوتيوب الشاملة YT Master](https://dev.majdfatihy.com/youtube-tool/): استخراج وتحليل بيانات القنوات وقوائم التشغيل مع رسوم بيانية وتصدير إلى Excel وتحميل الصور المصغّرة.
 - [أداة ShareIt Safebox](https://dev.majdfatihy.com/shareit-safebox-tool/): تخزين وإدارة الملفات والبيانات بواجهة سلسة ومتجاوبة تعمل على الهاتف والكمبيوتر.
-- [دليل Bybit والبطاقة الافتراضية](https://dev.majdfatihy.com/bybit-referral-code-majd/): دليل كود إحالة بايبت MAJD وهدايا المستخدم الجديد والبطاقة الافتراضية والشحن المحلي عبر P2P.
+- [دليل Bybit والبطاقة الافتراضية](https://dev.majdfatihy.com/bybit-referral-code-majd/ar/): دليل كود إحالة بايبت MAJD وهدايا المستخدم الجديد والبطاقة الافتراضية والشحن المحلي عبر P2P.
 - [أكواد خصم VidIQ](https://dev.majdfatihy.com/vidiq-discount-codes/): أحدث عروض وأكواد خصم VidIQ الرسمية لتحسين السيو ومضاعفة مشاهدات قنوات يوتيوب.
 - [Subtitle Forge AI](https://subtitle-forge-ai.vercel.app/): أداة ذكاء اصطناعي لتوليد وتعديل ملفات الترجمة (SRT) للفيديوهات بدقة وسرعة.
 - [شرح nsave: حساب دولاري وفيزا افتراضية](https://dev.majdfatihy.com/nsave-virtual-visa-card-usd-account/): دليل عملي لفتح حساب دولاري في nsave وإصدار Visa افتراضية، وشحن USDC وUSDT، ورسوم التحويل والسحب إلى مصر.
