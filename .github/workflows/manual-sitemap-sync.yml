@@ -1,0 +1,49 @@
+name: Manual sitemap discovery
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sitemap-manual-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Discover public Pages and update sitemap
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/sitemap_sync.py --discover
+      - name: Validate generated XML
+        run: |
+          python -m py_compile scripts/sitemap_sync.py
+          python - <<'PY'
+          from xml.etree import ElementTree as ET
+          root = ET.parse('sitemap.xml').getroot()
+          assert root.tag == '{http://www.sitemaps.org/schemas/sitemap/0.9}urlset'
+          urls = [n.text for n in root.findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+          assert urls and len(urls) == len(set(urls))
+          assert all(u.startswith('https://dev.majdfatihy.com/') for u in urls)
+          print(f'Validated {len(urls)} URLs')
+          PY
+      - name: Commit only real changes
+        run: |
+          git add data/sitemap-registry.json sitemap.xml
+          if git diff --cached --quiet; then
+            echo 'No new pages or substantial content changes. No commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Manual sync of indexable project pages and stable dates'
+          git push
