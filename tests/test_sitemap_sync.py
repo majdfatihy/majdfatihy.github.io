@@ -29,6 +29,10 @@ class SitemapSyncTests(unittest.TestCase):
         self.assertEqual(data["pages"][url]["created_at"], "2026-09-01")
         self.assertEqual(data["pages"][url]["first_seen"], "2026-11-23")
         self.assertEqual(data["pages"][url]["lastmod"], "2026-12-03")
+        with patch.object(sync, "git_file_dates", return_value=(None, None)):
+            sync.record_page(data, url, "unverifiable-change", "2026-12-06")
+        self.assertNotIn("lastmod", data["pages"][url])
+        self.assertEqual(data["pages"][url]["created_at"], "2026-09-01")
 
     def test_existing_urls_are_preserved_and_render_is_idempotent(self):
         with tempfile.TemporaryDirectory() as tmp:
