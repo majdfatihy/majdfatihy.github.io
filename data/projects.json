@@ -44,6 +44,10 @@
     {"title": "Subtitle Forge AI", "icon": "🤖", "category": "ai",
      "url": "https://subtitle-forge-ai.vercel.app/",
      "description": "أداة ذكاء اصطناعي لتوليد وتعديل ملفات الترجمة (SRT) للفيديوهات بدقة وسرعة.",
-     "tags": ["ترجمة", "ذكاء اصطناعي", "فيديو"], "cta": "تجربة الأداة"}
+     "tags": ["ترجمة", "ذكاء اصطناعي", "فيديو"], "cta": "تجربة الأداة"},
+    {"title": "شرح nsave: حساب دولاري وفيزا افتراضية", "icon": "💳", "category": "guides",
+     "url": "https://dev.majdfatihy.com/nsave-virtual-visa-card-usd-account/",
+     "description": "دليل عملي لفتح حساب دولاري في nsave وإصدار Visa افتراضية، وشحن USDC وUSDT، ورسوم التحويل والسحب إلى مصر.",
+     "tags": ["nsave", "حساب دولاري", "فيزا افتراضية"], "cta": "اقرأ الدليل"}
   ]
 }
